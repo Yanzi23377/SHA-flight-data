@@ -1,0 +1,25 @@
+[project]
+name = "sha-flight-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "tiantian", email = "estherqiu77@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "jupyterlab>=4.5.11",
+    "matplotlib>=3.7",
+]
+
+[project.scripts]
+sha-flight-data = "sha_flight_data:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+report = [
+    "reportlab>=4.4,<5",
+]
