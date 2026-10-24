@@ -1,0 +1,1000 @@
+{
+  "audit": {
+    "rows": 23705,
+    "dates": 31,
+    "date_range": [
+      "2026-09-22",
+      "2026-10-22"
+    ],
+    "directions": {
+      "arrival": 11873,
+      "departure": 11832
+    },
+    "unknown_status": 34,
+    "canceled": 487,
+    "timing_semantics_verified": {
+      "false": 23705
+    },
+    "operating_carrier_nonempty": 0,
+    "eligible_departures": 11560,
+    "exclusions": {
+      "arrival_unknown_or_canceled": 259,
+      "departure_unknown_or_canceled": 262,
+      "departure_missing_paired_timestamp": 19,
+      "arrival_missing_paired_timestamp": 15,
+      "departure_missing_departure_timestamp": 10
+    }
+  },
+  "paired_timestamps": {
+    "arrival": {
+      "n": 11599,
+      "departure": {
+        "n": 11599,
+        "mean": 18.80382216857775,
+        "median": 13.35,
+        "p90": 37.15,
+        "p95": 56.853333333333346,
+        "ge15_pct": 43.93482196741098,
+        "ge60_pct": 4.457280800068972
+      },
+      "arrival": {
+        "n": 11599,
+        "mean": -10.983579044170474,
+        "median": -15.466666666666667,
+        "p90": 11.146666666666714,
+        "p95": 30.033333333333392,
+        "ge15_pct": 8.449004224502112,
+        "ge60_pct": 1.9829295628933528
+      },
+      "scheduled_duration_minus_recorded_elapsed_minutes": {
+        "n": 11599,
+        "mean": 29.787401212748225,
+        "median": 29.683333333333334,
+        "p90": 43.95333333333335,
+        "p95": 47.63500000000001,
+        "ge15_pct": 91.29235278903354,
+        "ge60_pct": 0.5000431071644107
+      },
+      "positive_gain_pct": 99.56892835589275,
+      "departure_ge15_n": 5096,
+      "arrival_lt15_among_departure_ge15_n": 4125,
+      "arrival_lt15_among_departure_ge15_pct": 80.9458398744113,
+      "arrival_lt15_among_departure_ge15_date_bootstrap_ci_pct": [
+        78.45690950393647,
+        83.65501154145653
+      ],
+      "excluding_identity_review": {
+        "n": 11579,
+        "departure": {
+          "n": 11579,
+          "mean": 18.791330569709533,
+          "median": 13.333333333333334,
+          "p90": 37.013333333333385,
+          "p95": 56.853333333333346,
+          "ge15_pct": 43.88980050090681,
+          "ge60_pct": 4.456343380257363
+        },
+        "arrival": {
+          "n": 11579,
+          "mean": -11.0024167314391,
+          "median": -15.483333333333333,
+          "p90": 11.103333333333346,
+          "p95": 30.033333333333392,
+          "ge15_pct": 8.446325243976164,
+          "ge60_pct": 1.9863546074790568
+        },
+        "scheduled_duration_minus_recorded_elapsed_minutes": {
+          "n": 11579,
+          "mean": 29.79374730114863,
+          "median": 29.700000000000003,
+          "p90": 43.97000000000002,
+          "p95": 47.65166666666668,
+          "ge15_pct": 91.28594870023318,
+          "ge60_pct": 0.5009068140599361
+        },
+        "positive_gain_pct": 99.5681837809828,
+        "departure_ge15_n": 5082,
+        "arrival_lt15_among_departure_ge15_n": 4113,
+        "arrival_lt15_among_departure_ge15_pct": 80.9327036599764,
+        "arrival_lt15_among_departure_ge15_date_bootstrap_ci_pct": [
+          78.38913916284248,
+          83.63379947426763
+        ]
+      },
+      "routes_n_ge100": [
+        {
+          "route": "CAN-SHA",
+          "n": 1170,
+          "median_gain": 34.56666666666667
+        },
+        {
+          "route": "CGO-SHA",
+          "n": 106,
+          "median_gain": 25.15
+        },
+        {
+          "route": "CKG-SHA",
+          "n": 374,
+          "median_gain": 29.333333333333336
+        },
+        {
+          "route": "CSX-SHA",
+          "n": 250,
+          "median_gain": 27.016666666666666
+        },
+        {
+          "route": "CTU-SHA",
+          "n": 421,
+          "median_gain": 27.4
+        },
+        {
+          "route": "FOC-SHA",
+          "n": 158,
+          "median_gain": 20.40833333333333
+        },
+        {
+          "route": "GMP-SHA",
+          "n": 124,
+          "median_gain": 19.108333333333334
+        },
+        {
+          "route": "HKG-SHA",
+          "n": 168,
+          "median_gain": 30.541666666666668
+        },
+        {
+          "route": "HND-SHA",
+          "n": 123,
+          "median_gain": 30.766666666666666
+        },
+        {
+          "route": "INC-SHA",
+          "n": 102,
+          "median_gain": 27.458333333333332
+        },
+        {
+          "route": "JJN-SHA",
+          "n": 181,
+          "median_gain": 19.5
+        },
+        {
+          "route": "KMG-SHA",
+          "n": 400,
+          "median_gain": 29.233333333333334
+        },
+        {
+          "route": "KWE-SHA",
+          "n": 257,
+          "median_gain": 26.45
+        },
+        {
+          "route": "MFM-SHA",
+          "n": 134,
+          "median_gain": 21.575000000000003
+        },
+        {
+          "route": "NNG-SHA",
+          "n": 159,
+          "median_gain": 30.15
+        },
+        {
+          "route": "PEK-SHA",
+          "n": 1021,
+          "median_gain": 33.81666666666666
+        },
+        {
+          "route": "PKX-SHA",
+          "n": 305,
+          "median_gain": 34.88333333333333
+        },
+        {
+          "route": "SWA-SHA",
+          "n": 207,
+          "median_gain": 32.46666666666667
+        },
+        {
+          "route": "SYX-SHA",
+          "n": 171,
+          "median_gain": 32.1
+        },
+        {
+          "route": "SZX-SHA",
+          "n": 1199,
+          "median_gain": 34.68333333333334
+        },
+        {
+          "route": "TAO-SHA",
+          "n": 397,
+          "median_gain": 22.566666666666666
+        },
+        {
+          "route": "TFU-SHA",
+          "n": 295,
+          "median_gain": 31.616666666666667
+        },
+        {
+          "route": "TSA-SHA",
+          "n": 102,
+          "median_gain": 21.299999999999997
+        },
+        {
+          "route": "TSN-SHA",
+          "n": 222,
+          "median_gain": 29.05
+        },
+        {
+          "route": "TYN-SHA",
+          "n": 275,
+          "median_gain": 26.450000000000003
+        },
+        {
+          "route": "URC-SHA",
+          "n": 386,
+          "median_gain": 34.825
+        },
+        {
+          "route": "WUH-SHA",
+          "n": 212,
+          "median_gain": 27.125
+        },
+        {
+          "route": "XIY-SHA",
+          "n": 576,
+          "median_gain": 29.558333333333334
+        },
+        {
+          "route": "XMN-SHA",
+          "n": 566,
+          "median_gain": 31.725
+        },
+        {
+          "route": "YNT-SHA",
+          "n": 116,
+          "median_gain": 21.458333333333332
+        },
+        {
+          "route": "ZUH-SHA",
+          "n": 190,
+          "median_gain": 30.258333333333333
+        }
+      ]
+    },
+    "departure": {
+      "n": 11551,
+      "departure": {
+        "n": 11551,
+        "mean": 22.126509970276743,
+        "median": 17.3,
+        "p90": 35.1,
+        "p95": 55.61666666666667,
+        "ge15_pct": 59.93420483075058,
+        "ge60_pct": 4.44983118344732
+      },
+      "arrival": {
+        "n": 11551,
+        "mean": -5.293890860820131,
+        "median": -8.966666666666667,
+        "p90": 16.0,
+        "p95": 32.608333333333334,
+        "ge15_pct": 10.570513375465328,
+        "ge60_pct": 2.3461172192883732
+      },
+      "scheduled_duration_minus_recorded_elapsed_minutes": {
+        "n": 11551,
+        "mean": 27.420400831096874,
+        "median": 27.316666666666666,
+        "p90": 41.3,
+        "p95": 45.70833333333333,
+        "ge15_pct": 88.33001471734049,
+        "ge60_pct": 0.35494762358237386
+      },
+      "positive_gain_pct": 98.86589905635876,
+      "departure_ge15_n": 6923,
+      "arrival_lt15_among_departure_ge15_n": 5721,
+      "arrival_lt15_among_departure_ge15_pct": 82.63758486205403,
+      "arrival_lt15_among_departure_ge15_date_bootstrap_ci_pct": [
+        78.68237231071488,
+        86.37069157410808
+      ],
+      "excluding_identity_review": {
+        "n": 11527,
+        "departure": {
+          "n": 11527,
+          "mean": 22.13822763945519,
+          "median": 17.3,
+          "p90": 35.10666666666666,
+          "p95": 55.6233333333333,
+          "ge15_pct": 59.97223909083023,
+          "ge60_pct": 4.450420751279605
+        },
+        "arrival": {
+          "n": 11527,
+          "mean": -5.2743471848703045,
+          "median": -8.95,
+          "p90": 15.969999999999981,
+          "p95": 32.6,
+          "ge15_pct": 10.566496052745727,
+          "ge60_pct": 2.3510019953153467
+        },
+        "scheduled_duration_minus_recorded_elapsed_minutes": {
+          "n": 11527,
+          "mean": 27.412574824325496,
+          "median": 27.316666666666663,
+          "p90": 41.273333333333326,
+          "p95": 45.68333333333334,
+          "ge15_pct": 88.33174286457881,
+          "ge60_pct": 0.35568664873774614
+        },
+        "positive_gain_pct": 98.88088834909342,
+        "departure_ge15_n": 6913,
+        "arrival_lt15_among_departure_ge15_n": 5714,
+        "arrival_lt15_among_departure_ge15_pct": 82.65586576016202,
+        "arrival_lt15_among_departure_ge15_date_bootstrap_ci_pct": [
+          78.68056461130377,
+          86.40549753091814
+        ]
+      },
+      "routes_n_ge100": [
+        {
+          "route": "SHA-CAN",
+          "n": 1163,
+          "median_gain": 30.050000000000004
+        },
+        {
+          "route": "SHA-CGO",
+          "n": 137,
+          "median_gain": 25.916666666666664
+        },
+        {
+          "route": "SHA-CKG",
+          "n": 374,
+          "median_gain": 26.833333333333336
+        },
+        {
+          "route": "SHA-CSX",
+          "n": 247,
+          "median_gain": 28.516666666666666
+        },
+        {
+          "route": "SHA-CTU",
+          "n": 394,
+          "median_gain": 21.549999999999997
+        },
+        {
+          "route": "SHA-FOC",
+          "n": 158,
+          "median_gain": 25.383333333333333
+        },
+        {
+          "route": "SHA-GMP",
+          "n": 124,
+          "median_gain": 23.041666666666664
+        },
+        {
+          "route": "SHA-HKG",
+          "n": 176,
+          "median_gain": 40.900000000000006
+        },
+        {
+          "route": "SHA-HND",
+          "n": 124,
+          "median_gain": 45.525000000000006
+        },
+        {
+          "route": "SHA-INC",
+          "n": 102,
+          "median_gain": 16.116666666666667
+        },
+        {
+          "route": "SHA-JJN",
+          "n": 181,
+          "median_gain": 23.516666666666666
+        },
+        {
+          "route": "SHA-KMG",
+          "n": 383,
+          "median_gain": 27.53333333333333
+        },
+        {
+          "route": "SHA-KWE",
+          "n": 262,
+          "median_gain": 28.549999999999997
+        },
+        {
+          "route": "SHA-MFM",
+          "n": 134,
+          "median_gain": 33.358333333333334
+        },
+        {
+          "route": "SHA-NNG",
+          "n": 142,
+          "median_gain": 25.408333333333335
+        },
+        {
+          "route": "SHA-PEK",
+          "n": 1023,
+          "median_gain": 29.53333333333333
+        },
+        {
+          "route": "SHA-PKX",
+          "n": 302,
+          "median_gain": 27.391666666666666
+        },
+        {
+          "route": "SHA-SWA",
+          "n": 207,
+          "median_gain": 34.733333333333334
+        },
+        {
+          "route": "SHA-SYX",
+          "n": 172,
+          "median_gain": 26.925
+        },
+        {
+          "route": "SHA-SZX",
+          "n": 1197,
+          "median_gain": 32.43333333333334
+        },
+        {
+          "route": "SHA-TAO",
+          "n": 351,
+          "median_gain": 29.45
+        },
+        {
+          "route": "SHA-TFU",
+          "n": 327,
+          "median_gain": 27.316666666666666
+        },
+        {
+          "route": "SHA-TSA",
+          "n": 115,
+          "median_gain": 26.816666666666666
+        },
+        {
+          "route": "SHA-TSN",
+          "n": 222,
+          "median_gain": 28.375
+        },
+        {
+          "route": "SHA-TYN",
+          "n": 275,
+          "median_gain": 15.283333333333333
+        },
+        {
+          "route": "SHA-URC",
+          "n": 373,
+          "median_gain": 20.633333333333333
+        },
+        {
+          "route": "SHA-WUH",
+          "n": 210,
+          "median_gain": 25.5
+        },
+        {
+          "route": "SHA-XIY",
+          "n": 566,
+          "median_gain": 23.575
+        },
+        {
+          "route": "SHA-XMN",
+          "n": 584,
+          "median_gain": 22.433333333333337
+        },
+        {
+          "route": "SHA-YNT",
+          "n": 147,
+          "median_gain": 24.71666666666667
+        },
+        {
+          "route": "SHA-ZUH",
+          "n": 160,
+          "median_gain": 22.90833333333333
+        }
+      ]
+    }
+  },
+  "morning_evening_tail": {
+    "morning": {
+      "n": 4531,
+      "mean": 21.687865077613477,
+      "median": 18.883333333333333,
+      "p90": 32.4,
+      "p95": 44.18333333333334,
+      "ge15_pct": 66.23261973074376,
+      "ge60_pct": 2.4277201500772456
+    },
+    "evening": {
+      "n": 3406,
+      "mean": 22.853899980426696,
+      "median": 15.958333333333332,
+      "p90": 43.05,
+      "p95": 72.73333333333333,
+      "ge15_pct": 53.728714034057546,
+      "ge60_pct": 6.840869054609512
+    },
+    "matched_route_date_cells": 860,
+    "matched_records": 6948,
+    "matched_dates": 31,
+    "matched_mean_difference": 0.5173219308146634,
+    "matched_mean_difference_date_bootstrap_ci": [
+      -2.307115958085759,
+      4.708463715495301
+    ],
+    "matched_ge60_difference_pp": 3.599505146016774,
+    "matched_ge60_difference_pp_date_bootstrap_ci": [
+      0.9611119552958817,
+      7.7404466626321575
+    ],
+    "sensitivity_min2_per_window": {
+      "mean_difference": {
+        "cells": 644,
+        "dates": 31,
+        "estimate": 0.5043916915986015,
+        "date_bootstrap_ci": [
+          -2.49105002766663,
+          4.80995563753104
+        ]
+      },
+      "ge60_difference_pp": {
+        "cells": 644,
+        "dates": 31,
+        "estimate": 3.862175609070019,
+        "date_bootstrap_ci": [
+          0.9251283623951958,
+          8.210520018521542
+        ]
+      }
+    },
+    "ge60_difference_pp_leave_one_date_out_range": [
+      1.7868326151639475,
+      3.9343869271753884
+    ]
+  },
+  "cancellations": {
+    "daily": [
+      {
+        "date": "2026-09-22",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 771,
+        "known": 771,
+        "canceled": 5,
+        "canceled_pct": 0.648508430609598
+      },
+      {
+        "date": "2026-09-23",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 785,
+        "known": 785,
+        "canceled": 4,
+        "canceled_pct": 0.5095541401273885
+      },
+      {
+        "date": "2026-09-24",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 799,
+        "known": 799,
+        "canceled": 2,
+        "canceled_pct": 0.2503128911138924
+      },
+      {
+        "date": "2026-09-25",
+        "calendar_day_type": "public_holiday",
+        "records": 757,
+        "known": 757,
+        "canceled": 9,
+        "canceled_pct": 1.1889035667107
+      },
+      {
+        "date": "2026-09-26",
+        "calendar_day_type": "public_holiday",
+        "records": 721,
+        "known": 721,
+        "canceled": 45,
+        "canceled_pct": 6.2413314840499305
+      },
+      {
+        "date": "2026-09-27",
+        "calendar_day_type": "public_holiday",
+        "records": 776,
+        "known": 776,
+        "canceled": 28,
+        "canceled_pct": 3.608247422680412
+      },
+      {
+        "date": "2026-09-28",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 753,
+        "known": 751,
+        "canceled": 46,
+        "canceled_pct": 6.125166444740346
+      },
+      {
+        "date": "2026-09-29",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 761,
+        "known": 761,
+        "canceled": 62,
+        "canceled_pct": 8.14717477003942
+      },
+      {
+        "date": "2026-09-30",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 784,
+        "known": 783,
+        "canceled": 8,
+        "canceled_pct": 1.0217113665389528
+      },
+      {
+        "date": "2026-10-01",
+        "calendar_day_type": "public_holiday",
+        "records": 789,
+        "known": 789,
+        "canceled": 3,
+        "canceled_pct": 0.38022813688212925
+      },
+      {
+        "date": "2026-10-02",
+        "calendar_day_type": "public_holiday",
+        "records": 762,
+        "known": 762,
+        "canceled": 22,
+        "canceled_pct": 2.8871391076115485
+      },
+      {
+        "date": "2026-10-03",
+        "calendar_day_type": "public_holiday",
+        "records": 748,
+        "known": 748,
+        "canceled": 37,
+        "canceled_pct": 4.946524064171124
+      },
+      {
+        "date": "2026-10-04",
+        "calendar_day_type": "public_holiday",
+        "records": 756,
+        "known": 756,
+        "canceled": 24,
+        "canceled_pct": 3.1746031746031744
+      },
+      {
+        "date": "2026-10-05",
+        "calendar_day_type": "public_holiday",
+        "records": 764,
+        "known": 763,
+        "canceled": 14,
+        "canceled_pct": 1.834862385321101
+      },
+      {
+        "date": "2026-10-06",
+        "calendar_day_type": "public_holiday",
+        "records": 777,
+        "known": 777,
+        "canceled": 3,
+        "canceled_pct": 0.3861003861003861
+      },
+      {
+        "date": "2026-10-07",
+        "calendar_day_type": "public_holiday",
+        "records": 785,
+        "known": 785,
+        "canceled": 0,
+        "canceled_pct": 0
+      },
+      {
+        "date": "2026-10-08",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 770,
+        "known": 769,
+        "canceled": 42,
+        "canceled_pct": 5.461638491547465
+      },
+      {
+        "date": "2026-10-09",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 679,
+        "known": 676,
+        "canceled": 22,
+        "canceled_pct": 3.2544378698224854
+      },
+      {
+        "date": "2026-10-10",
+        "calendar_day_type": "adjusted_workday",
+        "records": 682,
+        "known": 680,
+        "canceled": 30,
+        "canceled_pct": 4.411764705882353
+      },
+      {
+        "date": "2026-10-11",
+        "calendar_day_type": "weekend",
+        "records": 718,
+        "known": 716,
+        "canceled": 11,
+        "canceled_pct": 1.536312849162011
+      },
+      {
+        "date": "2026-10-12",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 750,
+        "known": 741,
+        "canceled": 3,
+        "canceled_pct": 0.4048582995951417
+      },
+      {
+        "date": "2026-10-13",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 756,
+        "known": 749,
+        "canceled": 9,
+        "canceled_pct": 1.2016021361815754
+      },
+      {
+        "date": "2026-10-14",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 771,
+        "known": 766,
+        "canceled": 6,
+        "canceled_pct": 0.7832898172323759
+      },
+      {
+        "date": "2026-10-15",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 793,
+        "known": 793,
+        "canceled": 5,
+        "canceled_pct": 0.6305170239596469
+      },
+      {
+        "date": "2026-10-16",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 786,
+        "known": 786,
+        "canceled": 1,
+        "canceled_pct": 0.1272264631043257
+      },
+      {
+        "date": "2026-10-17",
+        "calendar_day_type": "weekend",
+        "records": 775,
+        "known": 775,
+        "canceled": 8,
+        "canceled_pct": 1.032258064516129
+      },
+      {
+        "date": "2026-10-18",
+        "calendar_day_type": "weekend",
+        "records": 777,
+        "known": 777,
+        "canceled": 0,
+        "canceled_pct": 0
+      },
+      {
+        "date": "2026-10-19",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 777,
+        "known": 777,
+        "canceled": 10,
+        "canceled_pct": 1.287001287001287
+      },
+      {
+        "date": "2026-10-20",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 786,
+        "known": 786,
+        "canceled": 19,
+        "canceled_pct": 2.4173027989821882
+      },
+      {
+        "date": "2026-10-21",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 794,
+        "known": 794,
+        "canceled": 6,
+        "canceled_pct": 0.7556675062972292
+      },
+      {
+        "date": "2026-10-22",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 803,
+        "known": 802,
+        "canceled": 3,
+        "canceled_pct": 0.3740648379052369
+      }
+    ],
+    "calendar": [
+      {
+        "category": "adjusted_workday",
+        "dates": 1,
+        "known": 680,
+        "canceled": 30,
+        "canceled_pct": 4.411764705882353,
+        "daily_rate_min_max_pct": [
+          4.411764705882353,
+          4.411764705882353
+        ],
+        "date_bootstrap_ci_pct": null
+      },
+      {
+        "category": "ordinary_weekday",
+        "dates": 17,
+        "known": 13089,
+        "canceled": 253,
+        "canceled_pct": 1.9329207731683093,
+        "daily_rate_min_max_pct": [
+          0.1272264631043257,
+          8.14717477003942
+        ],
+        "date_bootstrap_ci_pct": [
+          0.9380298332270202,
+          3.0759619658869184
+        ]
+      },
+      {
+        "category": "public_holiday",
+        "dates": 10,
+        "known": 7634,
+        "canceled": 185,
+        "canceled_pct": 2.4233691380665445,
+        "daily_rate_min_max_pct": [
+          0,
+          6.2413314840499305
+        ],
+        "date_bootstrap_ci_pct": [
+          1.3161153374797299,
+          3.689070855445884
+        ]
+      },
+      {
+        "category": "weekend",
+        "dates": 3,
+        "known": 2268,
+        "canceled": 19,
+        "canceled_pct": 0.8377425044091711,
+        "daily_rate_min_max_pct": [
+          0,
+          1.536312849162011
+        ],
+        "date_bootstrap_ci_pct": [
+          0.0,
+          1.536312849162011
+        ]
+      }
+    ],
+    "top5_dates": [
+      {
+        "date": "2026-09-29",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 761,
+        "known": 761,
+        "canceled": 62,
+        "canceled_pct": 8.14717477003942
+      },
+      {
+        "date": "2026-09-28",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 753,
+        "known": 751,
+        "canceled": 46,
+        "canceled_pct": 6.125166444740346
+      },
+      {
+        "date": "2026-09-26",
+        "calendar_day_type": "public_holiday",
+        "records": 721,
+        "known": 721,
+        "canceled": 45,
+        "canceled_pct": 6.2413314840499305
+      },
+      {
+        "date": "2026-10-08",
+        "calendar_day_type": "ordinary_weekday",
+        "records": 770,
+        "known": 769,
+        "canceled": 42,
+        "canceled_pct": 5.461638491547465
+      },
+      {
+        "date": "2026-10-03",
+        "calendar_day_type": "public_holiday",
+        "records": 748,
+        "known": 748,
+        "canceled": 37,
+        "canceled_pct": 4.946524064171124
+      }
+    ],
+    "top5_dates_share_of_cancellations_pct": 47.63860369609856,
+    "top5_dates_share_of_known_records_pct": 15.842169743568078,
+    "top5_dates_cancellation_pct": 6.1866666666666665,
+    "remaining_dates_cancellation_pct": 1.280056222077205,
+    "recurrent_flight_numbers_top10": [
+      {
+        "direction": "departure",
+        "flight_number": "MU5157",
+        "route": "SHA-PEK",
+        "known": 31,
+        "canceled": 8
+      },
+      {
+        "direction": "departure",
+        "flight_number": "FM9363",
+        "route": "SHA-WUH",
+        "known": 27,
+        "canceled": 7
+      },
+      {
+        "direction": "arrival",
+        "flight_number": "FM9364",
+        "route": "WUH-SHA",
+        "known": 28,
+        "canceled": 7
+      },
+      {
+        "direction": "arrival",
+        "flight_number": "MU2406",
+        "route": "TYN-SHA",
+        "known": 23,
+        "canceled": 6
+      },
+      {
+        "direction": "arrival",
+        "flight_number": "MU5122",
+        "route": "PEK-SHA",
+        "known": 31,
+        "canceled": 6
+      },
+      {
+        "direction": "arrival",
+        "flight_number": "MU2501",
+        "route": "WUH-SHA",
+        "known": 28,
+        "canceled": 5
+      },
+      {
+        "direction": "departure",
+        "flight_number": "FM9333",
+        "route": "SHA-SZX",
+        "known": 28,
+        "canceled": 5
+      },
+      {
+        "direction": "departure",
+        "flight_number": "FM9329",
+        "route": "SHA-CGO",
+        "known": 21,
+        "canceled": 5
+      },
+      {
+        "direction": "arrival",
+        "flight_number": "FM9334",
+        "route": "SZX-SHA",
+        "known": 28,
+        "canceled": 5
+      },
+      {
+        "direction": "arrival",
+        "flight_number": "FM9330",
+        "route": "CGO-SHA",
+        "known": 21,
+        "canceled": 5
+      }
+    ]
+  },
+  "method": {
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 20261024,
+    "bootstrap_unit": "local_date; percentile interval, exploratory not causal",
+    "matched_estimand": "Equal-weight mean across observed route-date cells with at least one eligible departure in each window; resample whole dates.",
+    "windows_local_hour": {
+      "morning": [
+        6,
+        11
+      ],
+      "evening": [
+        17,
+        22
+      ]
+    },
+    "threshold_minutes": 60,
+    "warning": "Exploratory questions chosen after inspecting the dataset. No confirmatory p-values; timing event semantics are unverified. Arrival and departure cohorts are reported separately, not pooled."
+  }
+}
