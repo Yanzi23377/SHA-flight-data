@@ -39,6 +39,46 @@ The dataset's `timing_semantics_verified` values are all false. The notebook and
 report label departure timestamp comparisons as exploratory rather than
 validated delay estimates.
 
+## Importing flight pages
+
+Fetch a specific Flightradar24 flight-history page using a browser-like HTTP GET
+and convert its visible history-table rows into the `sha_master.csv` layout:
+
+```bash
+uv run python scripts/import_saved_pages.py --url https://www.flightradar24.com/data/flights/mu5101 --output imported_flights.csv
+```
+
+Repeat `--url` for additional flights. `--timeout` sets the request timeout in
+seconds (default: 30). The `/data/flights` search page is not a flight-history
+page and is rejected. Each usable history row becomes a CSV record, with the
+flight number taken from the URL, airport codes extracted from the table, and
+`retrieved_at_utc` set to the fetch time. Displayed times are preserved as text;
+UTC timestamps and local calendar fields are not inferred.
+
+This uses Python's standard library, does not execute JavaScript or log in, and
+does not bypass access restrictions. HTTP failures and pages without usable
+history rows are reported as errors before writing the output. Only request
+pages you are permitted to access. Remote record IDs identify rows within an
+import, not stable flight-event identities across repeated downloads.
+
+### Saved pages (offline)
+
+`scripts/import_saved_pages.py` can read HTML pages that you have already saved
+and convert recognized table fields into the `sha_master.csv` column layout. It
+does not log in, contact Flightradar24, or make any network requests. Create a
+manifest CSV with `file,source_url` columns, placing each saved HTML filename
+beside its original page URL, then run:
+
+```bash
+uv run python scripts/import_saved_pages.py --html-dir saved_pages --manifest saved_pages.csv --output imported_flights.csv
+```
+
+Only recognized table labels are mapped; missing fields remain blank, and
+`timing_semantics_verified` is set to `false`. The parser cannot reliably infer
+timestamps or fields absent from the saved tables. Review and validate the
+output before using it for analysis. The input HTML and manifest must be
+obtained through access permitted by the source service.
+
 ## Additional exploratory research
 
 [Research extensions](./research_extensions.ipynb) adds three questions to the
