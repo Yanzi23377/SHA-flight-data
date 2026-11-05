@@ -27,6 +27,26 @@ For the research project, see the [documented Jupyter notebook](./sha_flight_plo
 uv run jupyter lab sha_flight_plots.ipynb
 ```
 
+## China National Day holiday flight project
+
+`national_day_research_project.pdf` is a transportation-engineering research
+paper on
+flight-event patterns at Shanghai Hongqiao Airport during October 1-7, 2026.
+It states the transport-planning problem and research contribution, includes
+five figures, and compares the holiday week with adjacent, weekday-aligned
+seven-day periods. It also examines China's adjusted-workday calendar: October
+10 is flagged as an adjusted workday, and the prior comparison week includes
+the September 25-27 Mid-Autumn public holidays. The paper distinguishes flight
+records from passenger demand and explains why this dataset cannot measure
+traveler motives, emissions, or causal holiday effects. Replace the author,
+course, and submission-date placeholders before submission.
+
+Regenerate the PDF and its charts with:
+
+```bash
+uv run --group report python scripts/generate_national_day_report.py
+```
+
 The report has 3,000-6,000 main-text words (excluding title page and references).
 To rebuild it, install the report dependency group and run:
 
@@ -111,6 +131,51 @@ running the analysis and refreshing the notebook figures:
 uv sync --group report
 uv run --group report python scripts/generate_extensions_document.py
 ```
+
+## Word report and documented notebook
+
+The Word-format academic submission package is in
+[final_project_word](./final_project_word):
+
+- [sha_national_day_final_report.docx](./final_project_word/sha_national_day_final_report.docx)
+  contains a title page, introduction and literature review, methods, results,
+  conclusions, and references. Its main text is approximately 3,356 words.
+- [sha_national_day_final.ipynb](./final_project_word/sha_national_day_final_executed.ipynb)
+  is the documented and executed notebook used for the three approved questions.
+- [sha_national_day_final_results.json](./final_project_word/sha_national_day_final_results.json)
+  contains the machine-readable summary values.
+
+Rebuild and execute the package with:
+
+```bash
+uv run --group report python scripts/build_word_final_project.py
+uv run --group report jupyter nbconvert --execute --to notebook \
+  final_project_word/sha_national_day_final.ipynb \
+  --output sha_national_day_final_executed.ipynb
+```
+
+The report uses a conventional academic structure and clearly states that course-specific
+formatting or referencing instructions should be checked against the instructor's page
+before submission.
+
+## Final three-question project
+
+A consolidated, reproducible project for the revised three-question scope is
+available in [final_project/final_project.pdf](./final_project/final_project.pdf)
+and [final_project/final_project.md](./final_project/final_project.md). It
+compares equal seven-day calendar phases, reports daily trends and missing
+status data, distinguishes a 60-minute recorded timestamp-gap threshold from
+verified operational delays, compares disruption by date and hour, and treats
+October 10 as a single adjusted-workday case study against the three ordinary
+weekend dates in the dataset.
+
+Regenerate the project with:
+
+```bash
+uv run python scripts/build_final_project.py
+```
+
+The script writes figures and machine-readable results to `final_project/`.
 
 ## Research presentation
 

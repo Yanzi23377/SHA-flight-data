@@ -1,0 +1,510 @@
+{
+  "rows": 23705,
+  "dates": 31,
+  "periods": [
+    {
+      "events": 5351,
+      "known": 5348,
+      "unknown": 3,
+      "canceled": 200,
+      "cancel_pct": 3.7397157816005984,
+      "label": "Pre-holiday",
+      "start": "2026-09-24",
+      "end": "2026-09-30",
+      "per_day": 764.4285714285714
+    },
+    {
+      "events": 5381,
+      "known": 5380,
+      "unknown": 1,
+      "canceled": 103,
+      "cancel_pct": 1.9144981412639406,
+      "label": "National Day",
+      "start": "2026-10-01",
+      "end": "2026-10-07",
+      "per_day": 768.7142857142857
+    },
+    {
+      "events": 5126,
+      "known": 5097,
+      "unknown": 29,
+      "canceled": 123,
+      "cancel_pct": 2.413184226015303,
+      "label": "Post-holiday",
+      "start": "2026-10-08",
+      "end": "2026-10-14",
+      "per_day": 732.2857142857143
+    }
+  ],
+  "daily": [
+    {
+      "events": 771,
+      "known": 771,
+      "unknown": 0,
+      "canceled": 5,
+      "cancel_pct": 0.648508430609598,
+      "date": "2026-09-22",
+      "weekday": "Tuesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 785,
+      "known": 785,
+      "unknown": 0,
+      "canceled": 4,
+      "cancel_pct": 0.5095541401273885,
+      "date": "2026-09-23",
+      "weekday": "Wednesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 799,
+      "known": 799,
+      "unknown": 0,
+      "canceled": 2,
+      "cancel_pct": 0.2503128911138924,
+      "date": "2026-09-24",
+      "weekday": "Thursday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 757,
+      "known": 757,
+      "unknown": 0,
+      "canceled": 9,
+      "cancel_pct": 1.1889035667107002,
+      "date": "2026-09-25",
+      "weekday": "Friday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 721,
+      "known": 721,
+      "unknown": 0,
+      "canceled": 45,
+      "cancel_pct": 6.2413314840499305,
+      "date": "2026-09-26",
+      "weekday": "Saturday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 776,
+      "known": 776,
+      "unknown": 0,
+      "canceled": 28,
+      "cancel_pct": 3.6082474226804124,
+      "date": "2026-09-27",
+      "weekday": "Sunday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 753,
+      "known": 751,
+      "unknown": 2,
+      "canceled": 46,
+      "cancel_pct": 6.125166444740346,
+      "date": "2026-09-28",
+      "weekday": "Monday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 761,
+      "known": 761,
+      "unknown": 0,
+      "canceled": 62,
+      "cancel_pct": 8.147174770039422,
+      "date": "2026-09-29",
+      "weekday": "Tuesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 784,
+      "known": 783,
+      "unknown": 1,
+      "canceled": 8,
+      "cancel_pct": 1.0217113665389528,
+      "date": "2026-09-30",
+      "weekday": "Wednesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 789,
+      "known": 789,
+      "unknown": 0,
+      "canceled": 3,
+      "cancel_pct": 0.38022813688212925,
+      "date": "2026-10-01",
+      "weekday": "Thursday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 762,
+      "known": 762,
+      "unknown": 0,
+      "canceled": 22,
+      "cancel_pct": 2.8871391076115485,
+      "date": "2026-10-02",
+      "weekday": "Friday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 748,
+      "known": 748,
+      "unknown": 0,
+      "canceled": 37,
+      "cancel_pct": 4.946524064171123,
+      "date": "2026-10-03",
+      "weekday": "Saturday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 756,
+      "known": 756,
+      "unknown": 0,
+      "canceled": 24,
+      "cancel_pct": 3.1746031746031744,
+      "date": "2026-10-04",
+      "weekday": "Sunday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 764,
+      "known": 763,
+      "unknown": 1,
+      "canceled": 14,
+      "cancel_pct": 1.834862385321101,
+      "date": "2026-10-05",
+      "weekday": "Monday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 777,
+      "known": 777,
+      "unknown": 0,
+      "canceled": 3,
+      "cancel_pct": 0.3861003861003861,
+      "date": "2026-10-06",
+      "weekday": "Tuesday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 785,
+      "known": 785,
+      "unknown": 0,
+      "canceled": 0,
+      "cancel_pct": 0.0,
+      "date": "2026-10-07",
+      "weekday": "Wednesday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 770,
+      "known": 769,
+      "unknown": 1,
+      "canceled": 42,
+      "cancel_pct": 5.461638491547464,
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 679,
+      "known": 676,
+      "unknown": 3,
+      "canceled": 22,
+      "cancel_pct": 3.2544378698224854,
+      "date": "2026-10-09",
+      "weekday": "Friday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 682,
+      "known": 680,
+      "unknown": 2,
+      "canceled": 30,
+      "cancel_pct": 4.411764705882353,
+      "date": "2026-10-10",
+      "weekday": "Saturday",
+      "day_type": "adjusted_workday"
+    },
+    {
+      "events": 718,
+      "known": 716,
+      "unknown": 2,
+      "canceled": 11,
+      "cancel_pct": 1.5363128491620113,
+      "date": "2026-10-11",
+      "weekday": "Sunday",
+      "day_type": "weekend"
+    },
+    {
+      "events": 750,
+      "known": 741,
+      "unknown": 9,
+      "canceled": 3,
+      "cancel_pct": 0.4048582995951417,
+      "date": "2026-10-12",
+      "weekday": "Monday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 756,
+      "known": 749,
+      "unknown": 7,
+      "canceled": 9,
+      "cancel_pct": 1.2016021361815754,
+      "date": "2026-10-13",
+      "weekday": "Tuesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 771,
+      "known": 766,
+      "unknown": 5,
+      "canceled": 6,
+      "cancel_pct": 0.783289817232376,
+      "date": "2026-10-14",
+      "weekday": "Wednesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 793,
+      "known": 793,
+      "unknown": 0,
+      "canceled": 5,
+      "cancel_pct": 0.6305170239596469,
+      "date": "2026-10-15",
+      "weekday": "Thursday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 786,
+      "known": 786,
+      "unknown": 0,
+      "canceled": 1,
+      "cancel_pct": 0.1272264631043257,
+      "date": "2026-10-16",
+      "weekday": "Friday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 775,
+      "known": 775,
+      "unknown": 0,
+      "canceled": 8,
+      "cancel_pct": 1.032258064516129,
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "day_type": "weekend"
+    },
+    {
+      "events": 777,
+      "known": 777,
+      "unknown": 0,
+      "canceled": 0,
+      "cancel_pct": 0.0,
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "day_type": "weekend"
+    },
+    {
+      "events": 777,
+      "known": 777,
+      "unknown": 0,
+      "canceled": 10,
+      "cancel_pct": 1.287001287001287,
+      "date": "2026-10-19",
+      "weekday": "Monday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 786,
+      "known": 786,
+      "unknown": 0,
+      "canceled": 19,
+      "cancel_pct": 2.4173027989821882,
+      "date": "2026-10-20",
+      "weekday": "Tuesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 794,
+      "known": 794,
+      "unknown": 0,
+      "canceled": 6,
+      "cancel_pct": 0.7556675062972292,
+      "date": "2026-10-21",
+      "weekday": "Wednesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 803,
+      "known": 802,
+      "unknown": 1,
+      "canceled": 3,
+      "cancel_pct": 0.3740648379052369,
+      "date": "2026-10-22",
+      "weekday": "Thursday",
+      "day_type": "ordinary_weekday"
+    }
+  ],
+  "eligible_gap_records": 11560,
+  "missing_gap_records": 10,
+  "extreme_gap_records": 514,
+  "extreme_gap_pct": 4.446366782006921,
+  "hourly_gaps": [
+    {
+      "hour_band": "Morning (06-11)",
+      "records": 4531,
+      "extreme_n": 110,
+      "extreme_pct": 2.4277201500772456,
+      "median_gap": 18.883333333333333
+    },
+    {
+      "hour_band": "Afternoon (12-16)",
+      "records": 3529,
+      "extreme_n": 170,
+      "extreme_pct": 4.817228676678946,
+      "median_gap": 16.833333333333332
+    },
+    {
+      "hour_band": "Evening (17-22)",
+      "records": 3406,
+      "extreme_n": 233,
+      "extreme_pct": 6.840869054609513,
+      "median_gap": 15.966666666666667
+    },
+    {
+      "hour_band": "Night/other (23-05)",
+      "records": 94,
+      "extreme_n": 1,
+      "extreme_pct": 1.0638297872340425,
+      "median_gap": 9.766666666666667
+    }
+  ],
+  "extreme_dates": [
+    {
+      "date": "2026-10-19",
+      "records": 380,
+      "extreme_n": 99,
+      "extreme_pct": 26.05263157894737
+    },
+    {
+      "date": "2026-09-26",
+      "records": 335,
+      "extreme_n": 75,
+      "extreme_pct": 22.388059701492537
+    },
+    {
+      "date": "2026-10-02",
+      "records": 367,
+      "extreme_n": 35,
+      "extreme_pct": 9.536784741144414
+    },
+    {
+      "date": "2026-09-24",
+      "records": 399,
+      "extreme_n": 34,
+      "extreme_pct": 8.521303258145364
+    },
+    {
+      "date": "2026-10-18",
+      "records": 386,
+      "extreme_n": 28,
+      "extreme_pct": 7.253886010362694
+    }
+  ],
+  "top_cancellation_dates": [
+    {
+      "events": 761,
+      "known": 761,
+      "unknown": 0,
+      "canceled": 62,
+      "cancel_pct": 8.147174770039422,
+      "date": "2026-09-29",
+      "weekday": "Tuesday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 721,
+      "known": 721,
+      "unknown": 0,
+      "canceled": 45,
+      "cancel_pct": 6.2413314840499305,
+      "date": "2026-09-26",
+      "weekday": "Saturday",
+      "day_type": "public_holiday"
+    },
+    {
+      "events": 753,
+      "known": 751,
+      "unknown": 2,
+      "canceled": 46,
+      "cancel_pct": 6.125166444740346,
+      "date": "2026-09-28",
+      "weekday": "Monday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 770,
+      "known": 769,
+      "unknown": 1,
+      "canceled": 42,
+      "cancel_pct": 5.461638491547464,
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "day_type": "ordinary_weekday"
+    },
+    {
+      "events": 748,
+      "known": 748,
+      "unknown": 0,
+      "canceled": 37,
+      "cancel_pct": 4.946524064171123,
+      "date": "2026-10-03",
+      "weekday": "Saturday",
+      "day_type": "public_holiday"
+    }
+  ],
+  "ordinary_weekends": [
+    {
+      "events": 718,
+      "known": 716,
+      "unknown": 2,
+      "canceled": 11,
+      "cancel_pct": 1.5363128491620113,
+      "date": "2026-10-11",
+      "weekday": "Sunday",
+      "day_type": "weekend"
+    },
+    {
+      "events": 775,
+      "known": 775,
+      "unknown": 0,
+      "canceled": 8,
+      "cancel_pct": 1.032258064516129,
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "day_type": "weekend"
+    },
+    {
+      "events": 777,
+      "known": 777,
+      "unknown": 0,
+      "canceled": 0,
+      "cancel_pct": 0.0,
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "day_type": "weekend"
+    }
+  ],
+  "oct10": {
+    "events": 682,
+    "known": 680,
+    "unknown": 2,
+    "canceled": 30,
+    "cancel_pct": 4.411764705882353,
+    "date": "2026-10-10",
+    "adjusted_workday": true
+  }
+}

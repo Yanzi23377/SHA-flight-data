@@ -1,0 +1,47 @@
+# ============================================================
+#  course6611-core  —  Workshop on Sustainable and Smart Transportation
+#  Course 0540-6611 · Future Mobility Lab · Tel Aviv University
+#
+#  Sessions 1-8: Pandas, GeoPandas, Clustering
+#  Everything here comes from conda-forge. Do not pip install
+#  into this environment.
+#
+#  Create with:   conda env create -f environment-core.yml
+#  Activate with: conda activate course6611-core
+# ============================================================
+name: course6611-core
+
+channels:
+  - conda-forge
+
+dependencies:
+  # --- interpreter -----------------------------------------
+  - python=3.12
+
+  # --- sessions 1-4: pandas ---------------------------------
+  - pandas>=2.2
+  - numpy>=1.26
+  - scipy
+  - matplotlib>=3.8
+  - seaborn
+  - openpyxl              # read/write .xlsx survey files
+  - tqdm
+
+  # --- sessions 5-6: geopandas / GTFS -----------------------
+  - geopandas>=1.0
+  - shapely>=2.0
+  - pyproj
+  - pyogrio               # I/O engine (replaces fiona in GeoPandas 1.x)
+  - rtree
+  - mapclassify           # required for .plot(column=..., legend=True)
+  - folium
+  - contextily            # basemap tiles under matplotlib maps
+  - h3-py                 # hexagonal spatial indexing
+
+  # --- sessions 7-8: clustering -----------------------------
+  - scikit-learn>=1.5
+
+  # --- notebook tooling -------------------------------------
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
