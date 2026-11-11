@@ -32,6 +32,7 @@ PERIODS = (
     ("Post-holiday", HOLIDAY+timedelta(days=7), HOLIDAY+timedelta(days=13)),
 )
 NAVY, BLUE, TEAL, ORANGE, RED = "#17324d", "#2878B5", "#5A9E8F", "#E07A32", "#BE4B48"
+ADJUSTED_WORKDAY_CALENDAR_DATES = ("2026-09-20", "2026-10-10")
 
 
 def pct(n, d): return 100*n/d if d else 0.0
@@ -99,7 +100,30 @@ def analysis(rows):
     oct10=[r for r in rows if r["_date"]==date(2026,10,10)]
     oct10_stats=rate(oct10)
     oct10_stats.update(date="2026-10-10",adjusted_workday=True)
-    return {"rows":len(rows),"dates":len(ds),"periods":periods,"daily":ds,"eligible_gap_records":len(eligible),"missing_gap_records":missing_gap,"extreme_gap_records":len(extreme),"extreme_gap_pct":pct(len(extreme),len(eligible)),"hourly_gaps":hourly,"extreme_dates":unusual[:5],"top_cancellation_dates":cancellations,"ordinary_weekends":ordinary_weekends,"oct10":oct10_stats}
+    comparison_dates = sorted({
+        r["_date"] for r in rows
+        if r["weekday"] in ("Saturday", "Sunday") or r["adjusted_workday"].strip().lower() == "true"
+    })
+    comparison = []
+    for d in comparison_dates:
+        day_rows = [r for r in rows if r["_date"] == d]
+        item = rate(day_rows)
+        item.update(
+            date=d.isoformat(),
+            weekday=day_rows[0]["weekday"],
+            day_type=day_rows[0]["calendar_day_type"],
+            adjusted_workday=day_rows[0]["adjusted_workday"].strip().lower() == "true",
+            public_holiday=day_rows[0]["public_holiday"],
+            arrivals=sum(r["direction"] == "arrival" for r in day_rows),
+            departures=sum(r["direction"] == "departure" for r in day_rows),
+        )
+        item["hour_band_events"] = dict(Counter(window_hour(r["_hour"]) for r in day_rows))
+        day_gaps = [gap for r, gap in eligible if r["_date"] == d]
+        item["eligible_gap_departures"] = len(day_gaps)
+        item["gap60_count"] = sum(gap >= 60 for gap in day_gaps)
+        item["gap60_pct"] = pct(item["gap60_count"], len(day_gaps))
+        comparison.append(item)
+    return {"rows":len(rows),"dates":len(ds),"periods":periods,"daily":ds,"eligible_gap_records":len(eligible),"missing_gap_records":missing_gap,"extreme_gap_records":len(extreme),"extreme_gap_pct":pct(len(extreme),len(eligible)),"hourly_gaps":hourly,"extreme_dates":unusual[:5],"top_cancellation_dates":cancellations,"ordinary_weekends":ordinary_weekends,"adjusted_workday_calendar_dates":list(ADJUSTED_WORKDAY_CALENDAR_DATES),"adjusted_workday_comparison":comparison,"oct10":oct10_stats}
 
 
 def fig1(res):

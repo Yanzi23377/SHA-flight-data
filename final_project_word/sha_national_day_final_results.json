@@ -498,6 +498,196 @@
       "day_type": "weekend"
     }
   ],
+  "adjusted_workday_calendar_dates": [
+    "2026-09-20",
+    "2026-10-10"
+  ],
+  "adjusted_workday_comparison": [
+    {
+      "events": 721,
+      "known": 721,
+      "unknown": 0,
+      "canceled": 45,
+      "cancel_pct": 6.2413314840499305,
+      "date": "2026-09-26",
+      "weekday": "Saturday",
+      "day_type": "public_holiday",
+      "adjusted_workday": false,
+      "public_holiday": "mid_autumn",
+      "arrivals": 361,
+      "departures": 360,
+      "hour_band_events": {
+        "Morning (06-11)": 218,
+        "Afternoon (12-16)": 232,
+        "Evening (17-22)": 240,
+        "Night/other (23-05)": 31
+      },
+      "eligible_gap_departures": 335,
+      "gap60_count": 75,
+      "gap60_pct": 22.388059701492537
+    },
+    {
+      "events": 776,
+      "known": 776,
+      "unknown": 0,
+      "canceled": 28,
+      "cancel_pct": 3.6082474226804124,
+      "date": "2026-09-27",
+      "weekday": "Sunday",
+      "day_type": "public_holiday",
+      "adjusted_workday": false,
+      "public_holiday": "mid_autumn",
+      "arrivals": 387,
+      "departures": 389,
+      "hour_band_events": {
+        "Morning (06-11)": 222,
+        "Afternoon (12-16)": 237,
+        "Evening (17-22)": 283,
+        "Night/other (23-05)": 34
+      },
+      "eligible_gap_departures": 375,
+      "gap60_count": 23,
+      "gap60_pct": 6.133333333333334
+    },
+    {
+      "events": 748,
+      "known": 748,
+      "unknown": 0,
+      "canceled": 37,
+      "cancel_pct": 4.946524064171123,
+      "date": "2026-10-03",
+      "weekday": "Saturday",
+      "day_type": "public_holiday",
+      "adjusted_workday": false,
+      "public_holiday": "national_day",
+      "arrivals": 374,
+      "departures": 374,
+      "hour_band_events": {
+        "Morning (06-11)": 224,
+        "Afternoon (12-16)": 233,
+        "Evening (17-22)": 257,
+        "Night/other (23-05)": 34
+      },
+      "eligible_gap_departures": 356,
+      "gap60_count": 17,
+      "gap60_pct": 4.775280898876405
+    },
+    {
+      "events": 756,
+      "known": 756,
+      "unknown": 0,
+      "canceled": 24,
+      "cancel_pct": 3.1746031746031744,
+      "date": "2026-10-04",
+      "weekday": "Sunday",
+      "day_type": "public_holiday",
+      "adjusted_workday": false,
+      "public_holiday": "national_day",
+      "arrivals": 379,
+      "departures": 377,
+      "hour_band_events": {
+        "Morning (06-11)": 221,
+        "Afternoon (12-16)": 230,
+        "Evening (17-22)": 272,
+        "Night/other (23-05)": 33
+      },
+      "eligible_gap_departures": 366,
+      "gap60_count": 17,
+      "gap60_pct": 4.644808743169399
+    },
+    {
+      "events": 682,
+      "known": 680,
+      "unknown": 2,
+      "canceled": 30,
+      "cancel_pct": 4.411764705882353,
+      "date": "2026-10-10",
+      "weekday": "Saturday",
+      "day_type": "adjusted_workday",
+      "adjusted_workday": true,
+      "public_holiday": "none",
+      "arrivals": 342,
+      "departures": 340,
+      "hour_band_events": {
+        "Morning (06-11)": 198,
+        "Afternoon (12-16)": 216,
+        "Evening (17-22)": 239,
+        "Night/other (23-05)": 29
+      },
+      "eligible_gap_departures": 323,
+      "gap60_count": 0,
+      "gap60_pct": 0.0
+    },
+    {
+      "events": 718,
+      "known": 716,
+      "unknown": 2,
+      "canceled": 11,
+      "cancel_pct": 1.5363128491620113,
+      "date": "2026-10-11",
+      "weekday": "Sunday",
+      "day_type": "weekend",
+      "adjusted_workday": false,
+      "public_holiday": "none",
+      "arrivals": 356,
+      "departures": 362,
+      "hour_band_events": {
+        "Morning (06-11)": 207,
+        "Afternoon (12-16)": 217,
+        "Evening (17-22)": 264,
+        "Night/other (23-05)": 30
+      },
+      "eligible_gap_departures": 356,
+      "gap60_count": 7,
+      "gap60_pct": 1.9662921348314606
+    },
+    {
+      "events": 775,
+      "known": 775,
+      "unknown": 0,
+      "canceled": 8,
+      "cancel_pct": 1.032258064516129,
+      "date": "2026-10-17",
+      "weekday": "Saturday",
+      "day_type": "weekend",
+      "adjusted_workday": false,
+      "public_holiday": "none",
+      "arrivals": 387,
+      "departures": 388,
+      "hour_band_events": {
+        "Morning (06-11)": 227,
+        "Afternoon (12-16)": 242,
+        "Evening (17-22)": 270,
+        "Night/other (23-05)": 36
+      },
+      "eligible_gap_departures": 384,
+      "gap60_count": 14,
+      "gap60_pct": 3.6458333333333335
+    },
+    {
+      "events": 777,
+      "known": 777,
+      "unknown": 0,
+      "canceled": 0,
+      "cancel_pct": 0.0,
+      "date": "2026-10-18",
+      "weekday": "Sunday",
+      "day_type": "weekend",
+      "adjusted_workday": false,
+      "public_holiday": "none",
+      "arrivals": 391,
+      "departures": 386,
+      "hour_band_events": {
+        "Morning (06-11)": 223,
+        "Afternoon (12-16)": 236,
+        "Evening (17-22)": 282,
+        "Night/other (23-05)": 36
+      },
+      "eligible_gap_departures": 386,
+      "gap60_count": 28,
+      "gap60_pct": 7.253886010362694
+    }
+  ],
   "oct10": {
     "events": 682,
     "known": 680,
