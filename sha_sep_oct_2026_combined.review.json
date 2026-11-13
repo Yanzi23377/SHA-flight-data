@@ -1,0 +1,3848 @@
+{
+  "added_events": 22178,
+  "conflicts": [
+    {
+      "event_id": "sha_7e614fbfa4b50cbe54cae2e4:departure",
+      "fields": {
+        "landed_status_utc": {
+          "observed": "2026-10-11T12:13:00Z",
+          "retained": "2026-10-11T12:14:15.000Z"
+        },
+        "status_display": {
+          "observed": "Landed 8:13 PM",
+          "retained": "Landed 8:14 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-11T12:13:00Z",
+          "retained": "2026-10-11T12:14:15.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_4b58d5add349044bb37e23ad:departure",
+      "fields": {
+        "landed_status_utc": {
+          "observed": "2026-10-09T11:54:00Z",
+          "retained": "2026-10-09T11:55:03.000Z"
+        },
+        "status_display": {
+          "observed": "Landed 7:54 PM",
+          "retained": "Landed 7:55 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-09T11:54:00Z",
+          "retained": "2026-10-09T11:55:03.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_158b552dcce54fcdd4b7d1f8:departure",
+      "fields": {
+        "landed_status_utc": {
+          "observed": "2026-10-04T11:57:00Z",
+          "retained": "2026-10-04T12:00:01.000Z"
+        },
+        "status_display": {
+          "observed": "Landed 7:57 PM",
+          "retained": "Landed 8:00 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-04T11:57:00Z",
+          "retained": "2026-10-04T12:00:01.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_15f1297192aed8a81749bb71:departure",
+      "fields": {
+        "landed_status_utc": {
+          "observed": "2026-09-28T11:57:00Z",
+          "retained": "2026-09-28T11:59:26.000Z"
+        },
+        "status_display": {
+          "observed": "Landed 7:57 PM",
+          "retained": "Landed 7:59 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-09-28T11:57:00Z",
+          "retained": "2026-09-28T11:59:26.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_71b21fcfda1d232f6e6a1993:departure",
+      "fields": {
+        "landed_status_utc": {
+          "observed": "2026-09-26T13:47:00Z",
+          "retained": "2026-09-26T13:51:04.000Z"
+        },
+        "status_display": {
+          "observed": "Landed 9:47 PM",
+          "retained": "Landed 9:51 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-09-26T13:47:00Z",
+          "retained": "2026-09-26T13:51:04.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_14699946c07f4fbbd5c6dbd9:departure",
+      "fields": {
+        "landed_status_utc": {
+          "observed": "2026-09-23T11:55:00Z",
+          "retained": "2026-09-23T11:55:04.000Z"
+        },
+        "status_event_utc": {
+          "observed": "2026-09-23T11:55:00Z",
+          "retained": "2026-09-23T11:55:04.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_1b3de3ee7f0e9cc5edc79ccd:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:39 PM",
+          "retained": "05:39"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:08 PM",
+          "retained": "Landed 07:08"
+        }
+      }
+    },
+    {
+      "event_id": "sha_7f3e9b5ca6ddfbe87a3c6543:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:37 PM",
+          "retained": "05:37"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 2:56 PM",
+          "retained": "Landed 06:56"
+        }
+      }
+    },
+    {
+      "event_id": "sha_59ac1587373d0f15cac63739:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:53 PM",
+          "retained": "05:53"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:22 PM",
+          "retained": "Landed 07:22"
+        }
+      }
+    },
+    {
+      "event_id": "sha_60f5ef800ce312d805d772d2:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:37 PM",
+          "retained": "05:37"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:09 PM",
+          "retained": "Landed 07:09"
+        }
+      }
+    },
+    {
+      "event_id": "sha_f403ed10666a94976d568b59:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:47 PM",
+          "retained": "05:47"
+        },
+        "landed_status_utc": {
+          "observed": "2026-10-10T07:18:00Z",
+          "retained": "2026-10-10T07:18:35.000Z"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:18 PM",
+          "retained": "Landed 07:18"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-10T07:18:00Z",
+          "retained": "2026-10-10T07:18:35.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_f4a45571a74cbbe00ffee17e:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:38 PM",
+          "retained": "05:38"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:07 PM",
+          "retained": "Landed 07:07"
+        }
+      }
+    },
+    {
+      "event_id": "sha_794da984224da81c118d618c:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:33 PM",
+          "retained": "05:33"
+        },
+        "landed_status_utc": {
+          "observed": "2026-09-29T06:50:00Z",
+          "retained": "2026-09-29T06:56:00.000Z"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 2:50 PM",
+          "retained": "Landed 06:56"
+        },
+        "status_event_utc": {
+          "observed": "2026-09-29T06:50:00Z",
+          "retained": "2026-09-29T06:56:00.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_07d0dbb29881ac35d657ce19:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:40 PM",
+          "retained": "05:40"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:00 PM",
+          "retained": "Landed 07:00"
+        }
+      }
+    },
+    {
+      "event_id": "sha_8d7d1b318ad1a3cd61da5aee:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:35 PM",
+          "retained": "05:35"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:01 PM",
+          "retained": "Landed 07:01"
+        }
+      }
+    },
+    {
+      "event_id": "sha_47ae3907d36e82d9c4150219:departure",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "1:37 PM",
+          "retained": "05:37"
+        },
+        "scheduled_arrival_display": {
+          "observed": "3:15 PM",
+          "retained": "07:15"
+        },
+        "scheduled_departure_display": {
+          "observed": "1:25 PM",
+          "retained": "05:25"
+        },
+        "status_display": {
+          "observed": "Landed 3:03 PM",
+          "retained": "Landed 07:03"
+        }
+      }
+    },
+    {
+      "event_id": "sha_6fd88c0d61fa9020a0c41427:departure",
+      "fields": {
+        "timing_difference_minutes": {
+          "observed": "19.0",
+          "retained": "19"
+        }
+      }
+    },
+    {
+      "event_id": "sha_8437ba7699c347f13b92c495:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "6:00 AM",
+          "retained": "9:30 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T22:00:00Z",
+          "retained": "2026-10-28T01:30:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 11:31 AM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_8a7f52232ed2600c9ffe5656:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "5:50 AM",
+          "retained": "9:30 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T21:50:00Z",
+          "retained": "2026-10-27T01:30:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 11:35 AM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_1c423e012d2be6ba304f9bd2:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "5:50 AM",
+          "retained": "9:30 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-25T21:50:00Z",
+          "retained": "2026-10-26T01:30:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 11:26 AM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_6a845cd698c09d1dff2ab195:arrival",
+      "fields": {
+        "timing_difference_minutes": {
+          "observed": "-9.0",
+          "retained": "-9"
+        }
+      }
+    },
+    {
+      "event_id": "sha_cbd3af4b4670f6fdca0b2ff5:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "6:22 AM",
+          "retained": "6:21 AM"
+        },
+        "actual_departure_utc": {
+          "observed": "2026-09-29T22:22:00Z",
+          "retained": "2026-09-29T22:21:00.000Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_391b2df13146db0bbd704f1d:departure",
+      "fields": {
+        "timing_difference_minutes": {
+          "observed": "55.0",
+          "retained": "55"
+        }
+      }
+    },
+    {
+      "event_id": "sha_e8d2e08bae459370f4bd8498:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "true",
+          "retained": "false"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:55 AM",
+          "retained": "8:45 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-28T01:55:00Z",
+          "retained": "2026-10-28T12:45:00Z"
+        },
+        "status_display": {
+          "observed": "Landed 11:27 AM",
+          "retained": "Estimated departure 9:51 AM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-28T03:27:15Z",
+          "retained": "2026-10-28T01:51:00Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_7f7a73172a16328ddaa8487e:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "true",
+          "retained": "false"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:55 AM",
+          "retained": "8:45 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T01:55:00Z",
+          "retained": "2026-10-27T12:45:00Z"
+        },
+        "status_display": {
+          "observed": "Landed 11:31 AM",
+          "retained": "Estimated departure 9:56 AM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-27T03:31:15Z",
+          "retained": "2026-10-27T01:56:00Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_035a7bcff0f3c5f951d024e9:arrival",
+      "fields": {
+        "aircraft_display": {
+          "observed": "A320 (B-6562)",
+          "retained": "320"
+        },
+        "completed_for_timing_readiness": {
+          "observed": "true",
+          "retained": "false"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:55 AM",
+          "retained": "8:45 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T01:55:00Z",
+          "retained": "2026-10-26T12:45:00Z"
+        },
+        "status_display": {
+          "observed": "Landed 11:39 AM",
+          "retained": "Unknown"
+        }
+      }
+    },
+    {
+      "event_id": "sha_2ba26957cdd05a918c4f638e:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:10 PM",
+          "retained": "7:45 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T08:10:00Z",
+          "retained": "2026-10-27T11:45:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 9:31 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_5f8d08216e79e1be102bbac2:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "true",
+          "retained": "false"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:35 PM",
+          "retained": "6:10 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-28T08:35:00Z",
+          "retained": "2026-10-28T10:10:00Z"
+        },
+        "status_display": {
+          "observed": "Landed 6:41 PM",
+          "retained": "Estimated departure 4:44 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-28T10:41:37Z",
+          "retained": "2026-10-28T08:44:00Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_19bc0be49b28c2a95a9c18be:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "true",
+          "retained": "false"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:35 PM",
+          "retained": "6:10 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T08:35:00Z",
+          "retained": "2026-10-27T10:10:00Z"
+        },
+        "status_display": {
+          "observed": "Landed 6:35 PM",
+          "retained": "Estimated departure 4:50 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-27T10:35:12Z",
+          "retained": "2026-10-27T08:50:00Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_9b01afd616b5e893f491724b:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "true",
+          "retained": "false"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:35 PM",
+          "retained": "6:10 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T08:35:00Z",
+          "retained": "2026-10-26T10:10:00Z"
+        },
+        "status_display": {
+          "observed": "Landed 6:29 PM",
+          "retained": "Estimated departure 4:46 PM"
+        },
+        "status_event_utc": {
+          "observed": "2026-10-26T10:29:38Z",
+          "retained": "2026-10-26T08:46:00Z"
+        }
+      }
+    },
+    {
+      "event_id": "sha_229dd36346a7b80ccae45f7a:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "3:30 PM",
+          "retained": "5:30 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-28T07:30:00Z",
+          "retained": "2026-10-28T09:30:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 7:38 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_7b24a5f53af0ff27f83b58f0:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "3:30 PM",
+          "retained": "5:30 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T07:30:00Z",
+          "retained": "2026-10-27T09:30:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 7:44 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_5f41d273db0e4dcf5ed4a2ff:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "3:30 PM",
+          "retained": "5:30 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T07:30:00Z",
+          "retained": "2026-10-26T09:30:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 7:38 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_d32c30720535619032aef710:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:55 AM",
+          "retained": "11:00 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-28T01:55:00Z",
+          "retained": "2026-10-28T03:00:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 12:31 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_3cb6ad6852049ac399ce7b2b:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:55 AM",
+          "retained": "11:00 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T01:55:00Z",
+          "retained": "2026-10-27T03:00:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 12:46 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_b953f937c3ebd311ebbf4144:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:55 AM",
+          "retained": "11:00 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T01:55:00Z",
+          "retained": "2026-10-26T03:00:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 12:33 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_bfb0bdd2148c03633f475dd9:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "6:20 AM",
+          "retained": "5:00 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T22:20:00Z",
+          "retained": "2026-10-28T09:00:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 6:27 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_b86e2c3ca2a606994d762448:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "6:20 AM",
+          "retained": "5:00 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T22:20:00Z",
+          "retained": "2026-10-27T09:00:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 6:24 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_6f17df92e68f81d8fd3db2a6:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "6:20 AM",
+          "retained": "5:00 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-25T22:20:00Z",
+          "retained": "2026-10-26T09:00:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 6:21 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_e5b8f18603638aae0f131e6f:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:30 PM",
+          "retained": "6:05 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-28T08:30:00Z",
+          "retained": "2026-10-28T10:05:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 7:58 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_2c6cf6f2d6ce3e4bdd050907:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:30 PM",
+          "retained": "6:05 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T08:30:00Z",
+          "retained": "2026-10-27T10:05:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 8:06 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_f7024ae706be68d58c9ef131:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "4:30 PM",
+          "retained": "6:05 PM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T08:30:00Z",
+          "retained": "2026-10-26T10:05:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 7:56 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_a5be2af6137e67a953bfc3c9:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "10:10 AM",
+          "retained": "11:15 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-28T02:10:00Z",
+          "retained": "2026-10-28T03:15:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 1:00 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_adaad84b0cdba95b177adfe4:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "10:10 AM",
+          "retained": "11:15 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-27T02:10:00Z",
+          "retained": "2026-10-27T03:15:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 1:11 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_c3864c9919949b013e646918:arrival",
+      "fields": {
+        "completed_for_timing_readiness": {
+          "observed": "false",
+          "retained": "true"
+        },
+        "scheduled_departure_display": {
+          "observed": "10:10 AM",
+          "retained": "11:15 AM"
+        },
+        "scheduled_departure_utc": {
+          "observed": "2026-10-26T02:10:00Z",
+          "retained": "2026-10-26T03:15:00Z"
+        },
+        "status_display": {
+          "observed": "Unknown",
+          "retained": "Landed 1:06 PM"
+        }
+      }
+    },
+    {
+      "event_id": "sha_4137a7c8666136244be800b5:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:19 AM",
+          "retained": "01:19"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:53 AM",
+          "retained": "Landed 03:53"
+        }
+      }
+    },
+    {
+      "event_id": "sha_a5b4a493075a614d5c6ea0a0:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:15 AM",
+          "retained": "01:15"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:59 AM",
+          "retained": "Landed 03:59"
+        }
+      }
+    },
+    {
+      "event_id": "sha_ce073be1f608c652154d556d:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:05 AM",
+          "retained": "01:05"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:35 AM",
+          "retained": "Landed 03:35"
+        }
+      }
+    },
+    {
+      "event_id": "sha_56609c38ca8f7b7927877587:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:21 AM",
+          "retained": "01:21"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:53 AM",
+          "retained": "Landed 03:53"
+        }
+      }
+    },
+    {
+      "event_id": "sha_7840cce55c2ccfc2c02c5969:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:08 AM",
+          "retained": "01:08"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:45 AM",
+          "retained": "Landed 03:45"
+        },
+        "timing_difference_minutes": {
+          "observed": "-25.0",
+          "retained": "-25"
+        }
+      }
+    },
+    {
+      "event_id": "sha_da940b2fc0c10b1dae7cb0ca:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:13 AM",
+          "retained": "01:13"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:43 AM",
+          "retained": "Landed 03:43"
+        }
+      }
+    },
+    {
+      "event_id": "sha_13aa81720601993c08d2e2a3:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:17 AM",
+          "retained": "01:17"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:54 AM",
+          "retained": "Landed 03:54"
+        }
+      }
+    },
+    {
+      "event_id": "sha_872ca16f377b2a04624bcd7e:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:19 AM",
+          "retained": "01:19"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:57 AM",
+          "retained": "Landed 03:57"
+        }
+      }
+    },
+    {
+      "event_id": "sha_d18cfe0ec58fb99e65328320:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:06 AM",
+          "retained": "01:06"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:38 AM",
+          "retained": "Landed 03:38"
+        }
+      }
+    },
+    {
+      "event_id": "sha_9df87c68bf164d1e6d4969b2:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:22 AM",
+          "retained": "01:22"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:48 AM",
+          "retained": "Landed 03:48"
+        }
+      }
+    },
+    {
+      "event_id": "sha_c7fe3784ff9d3824ef2611a8:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:19 AM",
+          "retained": "01:19"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:49 AM",
+          "retained": "Landed 03:49"
+        }
+      }
+    },
+    {
+      "event_id": "sha_3941e20aa0f299eecb8a2c60:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:18 AM",
+          "retained": "01:18"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:48 AM",
+          "retained": "Landed 03:48"
+        }
+      }
+    },
+    {
+      "event_id": "sha_b5bbd7fefc96c2e8b7ae7219:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:34 AM",
+          "retained": "01:34"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 12:07 PM",
+          "retained": "Landed 04:07"
+        }
+      }
+    },
+    {
+      "event_id": "sha_e792fd6113e305c49a210eba:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:26 AM",
+          "retained": "01:26"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 12:04 PM",
+          "retained": "Landed 04:04"
+        }
+      }
+    },
+    {
+      "event_id": "sha_49cf07224d841f0a47793ba8:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:42 AM",
+          "retained": "01:42"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 12:21 PM",
+          "retained": "Landed 04:21"
+        }
+      }
+    },
+    {
+      "event_id": "sha_f9d20109df148eff5b3a0bba:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:10 AM",
+          "retained": "01:10"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:48 AM",
+          "retained": "Landed 03:48"
+        }
+      }
+    },
+    {
+      "event_id": "sha_38b3eb2339d0706c02ab4a2c:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:12 AM",
+          "retained": "01:12"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:58 AM",
+          "retained": "Landed 03:58"
+        }
+      }
+    },
+    {
+      "event_id": "sha_c47fd4fa6e9cdea590c02340:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:10 AM",
+          "retained": "01:10"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 11:53 AM",
+          "retained": "Landed 03:53"
+        }
+      }
+    },
+    {
+      "event_id": "sha_7ceb3ad8daef5a53dfcd2080:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "11:23 AM",
+          "retained": "03:23"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 2:06 PM",
+          "retained": "Landed 06:06"
+        }
+      }
+    },
+    {
+      "event_id": "sha_dbe8257094702d459ed7d144:arrival",
+      "fields": {
+        "actual_departure_display": {
+          "observed": "9:25 AM",
+          "retained": "01:25"
+        },
+        "scheduled_arrival_display": {
+          "observed": "12:10 PM",
+          "retained": "04:10"
+        },
+        "scheduled_departure_display": {
+          "observed": "9:00 AM",
+          "retained": "01:00"
+        },
+        "status_display": {
+          "observed": "Landed 12:05 PM",
+          "retained": "Landed 04:05"
+        }
+      }
+    }
+  ],
+  "identity_review": [],
+  "matched_observations": 175,
+  "provenance": [
+    {
+      "event_id": "sha_5dfed45720908d7fd0f5187e:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_07ef6d405eff9b5b058f86d3:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_b9cd4132b273859320fd3947:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_ccf9973c4a9b8ebd24b2794a:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_2cd827da1ad5904fe192883d:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_b0179fe35bd50754e90f2ad1:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_62064d57cb1e85fbf72412c4:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_6538b8aa27713f748d534188:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_ca33b118f70943efe131c444:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_a93f6a6ac64e5d2585d134be:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_ecb7a47f6ca67fb08c0d5981:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_7e614fbfa4b50cbe54cae2e4:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_455f06868120cfb74f3a4285:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_4b58d5add349044bb37e23ad:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_d502d56153563c8724438e4a:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_19465e3f2dbcb6d95e4c662c:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_5776d59c3bf4101fec488c5a:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_89080f2c89415cff41c6693a:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_158b552dcce54fcdd4b7d1f8:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_8df8ee9c6ef452e03fa01002:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_32e98380a7c329e5f3eff02c:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_8d72e70ef1a011a72586c0bd:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_d981013439dcb28f88527266:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_02b3f64f4e26a9e41b2358db:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_15f1297192aed8a81749bb71:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_ce09a79628773eeffd9176ec:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_71b21fcfda1d232f6e6a1993:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_c2460f4e8383b5edcb81f5fc:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_ee8a1c69baf897fad975a3c3:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_14699946c07f4fbbd5c6dbd9:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_89c68179d8dc83cfc5af5086:departure",
+      "flight_number": "9C6475",
+      "retrieved_at_utc": "2026-11-13T09:52:45.073000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6475"
+    },
+    {
+      "event_id": "sha_1b3de3ee7f0e9cc5edc79ccd:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_7f3e9b5ca6ddfbe87a3c6543:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_59ac1587373d0f15cac63739:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_60f5ef800ce312d805d772d2:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_f403ed10666a94976d568b59:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_f4a45571a74cbbe00ffee17e:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_794da984224da81c118d618c:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_07d0dbb29881ac35d657ce19:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_8d7d1b318ad1a3cd61da5aee:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_47ae3907d36e82d9c4150219:departure",
+      "flight_number": "8L9838",
+      "retrieved_at_utc": "2026-11-13T09:52:52.939000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9838"
+    },
+    {
+      "event_id": "sha_0c9f8befe297064cfe02b9e8:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_2b346a8ba7b9c4ecd183a0f0:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_f1d80bdea0bf9d104a835ef2:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_7c39f330da1e3534d46ea20b:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_e712efe686c5cb64eef69867:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_a18ffbba6a15f9e905d71226:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_62c4584124ca479d3c669c3a:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_6c2d0deee2c9cc7c8f6c87cc:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_2d62e930da6ac3498d20cd9b:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_ac3de6f5db26dfd0960ea0dd:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_c26e8ae8ec30be35e6a71f6b:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_4b783ff8369b88c1a4849bbc:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_b71ec4b4a89666ab7f627440:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_6fd88c0d61fa9020a0c41427:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_c1b5adc4fd467e2015789289:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_aa3e3df3cacd345614cb620f:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_34b2c45260b12e93c6951874:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_2d3f8fb92efe8c94b35c9581:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_f08ecdf10fade1bd016a8310:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_e003af947de03931fffc488f:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_ffd791928489417f16f0be76:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_dc92a20355b6aa29b04c8b9e:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_f0076f311dbbf8e2bd346cda:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_42b6453dca09f3de0a698e29:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_41c6124c9cbbdd2f7076e362:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_6f1dd30f812151533370704d:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_7094d780923e71c9bfebe0e4:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_02485c658743987beb60d186:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_4829e0d6b66abd8bf1094278:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_4f80f1cfc208a8d8d3cbb272:departure",
+      "flight_number": "CA1502",
+      "retrieved_at_utc": "2026-11-13T09:34:24.541000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/ca1502"
+    },
+    {
+      "event_id": "sha_8437ba7699c347f13b92c495:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_8a7f52232ed2600c9ffe5656:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_1c423e012d2be6ba304f9bd2:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_74ea9770ff6bd0feaa1940ad:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_d7da3da81ed8dc7e9542063a:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_0f6ea7e3778b8315632d7174:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_adbad3951bedf7b51f1f575d:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_e34a1e9a4083b069c2e96ee6:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_4e8c9178b51ead5a48170909:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_6296a0d59167be14e037c374:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_d3f60a6ba7cb3c566421b94d:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_9e0915de3d996751c47468a0:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_d549407233505ad6d3ec8472:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_b287c38b9580e590448b5d1b:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_8e121fcfba57a696bac771c7:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_64824efe92d02167749a76c0:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_b73c506acfe5a9c10df959cb:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_0e7d14817bb5eef77813c1f4:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_13799bebe6b003971b65c2a3:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_cb672b7b328d9625db6a590b:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_98499960cdb6eb2b36cea5cf:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_d43941eeaca157801600f38f:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_62301e6f8b406061e459e6e3:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_6a845cd698c09d1dff2ab195:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_ddbbb57e01f27737be8b83dc:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_cbd3af4b4670f6fdca0b2ff5:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_bdb03d043c10bd5ba641d51b:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_c7dec9e4c4219ed5471fc73e:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_8e84b8f207c15fd5e43a2416:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_63d72498cb6cd8157a8c28bf:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_4e48c14be5917f759cccc4d6:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_9428a16137935f65d41ac5e7:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_ddf1d2af2c4e3b6f803ba02a:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_25e4eff64f60c3005a65b590:arrival",
+      "flight_number": "9C8946",
+      "retrieved_at_utc": "2026-11-13T09:34:31.061000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8946"
+    },
+    {
+      "event_id": "sha_81b60953cca7459014defaaa:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_14e8ab2a663197944b53fa46:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_19aca0d031b4200d3a33bbf8:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_391b2df13146db0bbd704f1d:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_fb4594cce98e353ab1e834b5:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_c600cccfc8f558e0db834fad:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_5a16ef1a79b92586bd0d709a:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_2e14ea2a48cafbc6f2e192b2:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_e8587275cd1aa53bb0ad4bce:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_edb903bbbbcf2dba2c8779fa:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_38bea2bd2b05b02223b5aa5e:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_8dc7d020adfc387e7f0e9dde:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_9cb155e8f86ad4096bbc5f0b:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_8de7d7bf29c4a4da128db916:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_6897db74c95a936331d1a5f3:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_ecfc3e3f91d64d16e6489f4e:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_37a68ce33e744d0477af9b8a:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_df1e02c571d31002f2a698c5:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_a832a3a8f72b17ab1d78c30c:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_5e633c3e991319566c333d0d:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_0454233500594c394789eb6e:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_597d18d61e91cf5525009b8c:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_c6e19ebf802db91ae3c76b26:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_90b11eee0324a60c30760936:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_368627979d506e099d85f7dc:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_045a9ea35dc265ac791dc71a:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_f7ff91d65584b95429f86a58:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_ad05c6877a094026fadc6e4c:departure",
+      "flight_number": "MU5101",
+      "retrieved_at_utc": "2026-11-13T09:34:37.430000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/mu5101"
+    },
+    {
+      "event_id": "sha_e8d2e08bae459370f4bd8498:arrival",
+      "flight_number": "9C6476",
+      "retrieved_at_utc": "2026-11-13T10:31:32.265000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6476"
+    },
+    {
+      "event_id": "sha_7f7a73172a16328ddaa8487e:arrival",
+      "flight_number": "9C6476",
+      "retrieved_at_utc": "2026-11-13T10:31:32.265000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6476"
+    },
+    {
+      "event_id": "sha_035a7bcff0f3c5f951d024e9:arrival",
+      "flight_number": "9C6476",
+      "retrieved_at_utc": "2026-11-13T10:31:32.265000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6476"
+    },
+    {
+      "event_id": "sha_2ba26957cdd05a918c4f638e:arrival",
+      "flight_number": "9C6518",
+      "retrieved_at_utc": "2026-11-13T10:33:55.683000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6518"
+    },
+    {
+      "event_id": "sha_5f8d08216e79e1be102bbac2:arrival",
+      "flight_number": "9C6720",
+      "retrieved_at_utc": "2026-11-13T10:34:04.736000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6720"
+    },
+    {
+      "event_id": "sha_19bc0be49b28c2a95a9c18be:arrival",
+      "flight_number": "9C6720",
+      "retrieved_at_utc": "2026-11-13T10:34:04.736000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6720"
+    },
+    {
+      "event_id": "sha_9b01afd616b5e893f491724b:arrival",
+      "flight_number": "9C6720",
+      "retrieved_at_utc": "2026-11-13T10:34:04.736000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6720"
+    },
+    {
+      "event_id": "sha_229dd36346a7b80ccae45f7a:arrival",
+      "flight_number": "9C6748",
+      "retrieved_at_utc": "2026-11-13T10:34:23.265000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6748"
+    },
+    {
+      "event_id": "sha_7b24a5f53af0ff27f83b58f0:arrival",
+      "flight_number": "9C6748",
+      "retrieved_at_utc": "2026-11-13T10:34:23.265000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6748"
+    },
+    {
+      "event_id": "sha_5f41d273db0e4dcf5ed4a2ff:arrival",
+      "flight_number": "9C6748",
+      "retrieved_at_utc": "2026-11-13T10:34:23.265000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c6748"
+    },
+    {
+      "event_id": "sha_d32c30720535619032aef710:arrival",
+      "flight_number": "9C8678",
+      "retrieved_at_utc": "2026-11-13T10:39:49.002000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8678"
+    },
+    {
+      "event_id": "sha_3cb6ad6852049ac399ce7b2b:arrival",
+      "flight_number": "9C8678",
+      "retrieved_at_utc": "2026-11-13T10:39:49.002000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8678"
+    },
+    {
+      "event_id": "sha_b953f937c3ebd311ebbf4144:arrival",
+      "flight_number": "9C8678",
+      "retrieved_at_utc": "2026-11-13T10:39:49.002000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8678"
+    },
+    {
+      "event_id": "sha_bfb0bdd2148c03633f475dd9:arrival",
+      "flight_number": "9C8808",
+      "retrieved_at_utc": "2026-11-13T10:44:55.729000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8808"
+    },
+    {
+      "event_id": "sha_b86e2c3ca2a606994d762448:arrival",
+      "flight_number": "9C8808",
+      "retrieved_at_utc": "2026-11-13T10:44:55.729000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8808"
+    },
+    {
+      "event_id": "sha_6f17df92e68f81d8fd3db2a6:arrival",
+      "flight_number": "9C8808",
+      "retrieved_at_utc": "2026-11-13T10:44:55.729000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8808"
+    },
+    {
+      "event_id": "sha_e5b8f18603638aae0f131e6f:arrival",
+      "flight_number": "9C8856",
+      "retrieved_at_utc": "2026-11-13T10:46:32.390000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8856"
+    },
+    {
+      "event_id": "sha_2c6cf6f2d6ce3e4bdd050907:arrival",
+      "flight_number": "9C8856",
+      "retrieved_at_utc": "2026-11-13T10:46:32.390000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8856"
+    },
+    {
+      "event_id": "sha_f7024ae706be68d58c9ef131:arrival",
+      "flight_number": "9C8856",
+      "retrieved_at_utc": "2026-11-13T10:46:32.390000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8856"
+    },
+    {
+      "event_id": "sha_a5be2af6137e67a953bfc3c9:arrival",
+      "flight_number": "9C8918",
+      "retrieved_at_utc": "2026-11-13T10:47:58.270000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8918"
+    },
+    {
+      "event_id": "sha_adaad84b0cdba95b177adfe4:arrival",
+      "flight_number": "9C8918",
+      "retrieved_at_utc": "2026-11-13T10:47:58.270000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8918"
+    },
+    {
+      "event_id": "sha_c3864c9919949b013e646918:arrival",
+      "flight_number": "9C8918",
+      "retrieved_at_utc": "2026-11-13T10:47:58.270000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/9c8918"
+    },
+    {
+      "event_id": "sha_4137a7c8666136244be800b5:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_a5b4a493075a614d5c6ea0a0:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_ce073be1f608c652154d556d:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_56609c38ca8f7b7927877587:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_7840cce55c2ccfc2c02c5969:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_da940b2fc0c10b1dae7cb0ca:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_13aa81720601993c08d2e2a3:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_872ca16f377b2a04624bcd7e:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_d18cfe0ec58fb99e65328320:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_9df87c68bf164d1e6d4969b2:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_c7fe3784ff9d3824ef2611a8:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_3941e20aa0f299eecb8a2c60:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_b5bbd7fefc96c2e8b7ae7219:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_e792fd6113e305c49a210eba:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_49cf07224d841f0a47793ba8:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_f9d20109df148eff5b3a0bba:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_38b3eb2339d0706c02ab4a2c:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_c47fd4fa6e9cdea590c02340:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_7ceb3ad8daef5a53dfcd2080:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    },
+    {
+      "event_id": "sha_dbe8257094702d459ed7d144:arrival",
+      "flight_number": "8L9887",
+      "retrieved_at_utc": "2026-11-13T09:53:00.543000+00:00",
+      "source_url": "https://www.flightradar24.com/data/flights/8l9887"
+    }
+  ],
+  "quarantine": [
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch01.json",
+      "flight_number": "8L9837",
+      "raw": {
+        "actual_departure_display": "12:04 PM",
+        "actual_departure_epoch": "1779941095",
+        "aircraft_display": "B738 (B-5409)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1779945101",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "3fe787a8",
+        "origin_iata": "KHN",
+        "registration": "B-5409",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "1:11 PM",
+        "scheduled_departure_epoch": "1779945101",
+        "status_display": "Landed 1:11 PM",
+        "status_epoch": "1779945098"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 80
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch03-final.json",
+      "flight_number": "9C7118",
+      "raw": {
+        "actual_departure_display": "11:16 AM",
+        "actual_departure_epoch": "1791861404",
+        "aircraft_display": "A21N (B-321H)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791861404",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "4218df12",
+        "origin_iata": "KWE",
+        "registration": "B-321H",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 1:13 PM",
+        "status_epoch": "1791868422"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 15
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch07.json",
+      "flight_number": "CA198",
+      "raw": {
+        "actual_departure_display": "11:52 AM",
+        "actual_departure_epoch": "1792900339",
+        "aircraft_display": "A333 (B-6530)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1792900339",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "42478ddf",
+        "origin_iata": "TSA",
+        "registration": "B-6530",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 1:12 PM",
+        "status_epoch": "1792905153"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 16
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch07.json",
+      "flight_number": "CA198",
+      "raw": {
+        "actual_departure_display": "3:41 PM",
+        "actual_departure_epoch": "1780645300",
+        "aircraft_display": "A333 (B-6530)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1780650522",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40098df3",
+        "origin_iata": "TSA",
+        "registration": "B-6530",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "5:08 PM",
+        "scheduled_departure_epoch": "1780650522",
+        "status_display": "Landed 5:08 PM",
+        "status_epoch": "1780650492"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 97
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch08.json",
+      "flight_number": "CZ3568",
+      "raw": {
+        "actual_departure_display": "6:39 AM",
+        "actual_departure_epoch": "1791671963",
+        "aircraft_display": "A21N (B-30E6)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791678295",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "42115c3e",
+        "origin_iata": "SZX",
+        "registration": "B-30E6",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "8:24 AM",
+        "scheduled_departure_epoch": "1791678295",
+        "status_display": "Landed 8:24 AM",
+        "status_epoch": "1791678284"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 39
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch09.json",
+      "flight_number": "CZ8900",
+      "raw": {
+        "actual_departure_display": "11:46 AM",
+        "actual_departure_epoch": "1791863213",
+        "aircraft_display": "A21N (B-32CS)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791863213",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "PKX",
+        "flight_hex": "4218e720",
+        "origin_iata": "SHA",
+        "registration": "B-32CS",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 1:28 PM",
+        "status_epoch": "1791869307"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 11
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch09.json",
+      "flight_number": "FM818",
+      "raw": {
+        "actual_departure_display": "10:51 PM",
+        "actual_departure_epoch": "1788015100",
+        "aircraft_display": "B738 (B-5691)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1788015736",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "",
+        "flight_hex": "4169834b",
+        "origin_iata": "SHA",
+        "registration": "B-5691",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "11:02 PM",
+        "scheduled_departure_epoch": "1788015736",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 84
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch09.json",
+      "flight_number": "FM9116",
+      "raw": {
+        "actual_departure_display": "6:21 PM",
+        "actual_departure_epoch": "1788258107",
+        "aircraft_display": "B738 (B-5832)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1788259281",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "41742121",
+        "origin_iata": "NTG",
+        "registration": "B-5832",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "6:41 PM",
+        "scheduled_departure_epoch": "1788259281",
+        "status_display": "Landed 6:41 PM",
+        "status_epoch": "1788259273"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 78
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch09.json",
+      "flight_number": "FM9216",
+      "raw": {
+        "actual_departure_display": "11:53 PM",
+        "actual_departure_epoch": "1784389986",
+        "aircraft_display": "B738 (B-205Y)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784392386",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40bb809c",
+        "origin_iata": "NKG",
+        "registration": "B-205Y",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "12:33 AM",
+        "scheduled_departure_epoch": "1784392386",
+        "status_display": "Landed 12:33 AM",
+        "status_epoch": "1784392382"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 81
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9226",
+      "raw": {
+        "actual_departure_display": "11:44 PM",
+        "actual_departure_epoch": "1784389466",
+        "aircraft_display": "B738 (B-5705)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784392686",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40bb3e84",
+        "origin_iata": "HFE",
+        "registration": "B-5705",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "12:38 AM",
+        "scheduled_departure_epoch": "1784392686",
+        "status_display": "Landed 12:37 AM",
+        "status_epoch": "1784392673"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 64
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9229",
+      "raw": {
+        "actual_departure_display": "\u2014",
+        "actual_departure_epoch": "",
+        "aircraft_display": "B738 (B-205Y)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1787028337",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "HRB",
+        "flight_hex": "413a0dc4",
+        "origin_iata": "",
+        "registration": "B-205Y",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "null",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 12:45 PM",
+        "status_epoch": "1787028330"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 191
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9290",
+      "raw": {
+        "actual_departure_display": "5:49 PM",
+        "actual_departure_epoch": "1785664150",
+        "aircraft_display": "B738 (B-7637)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785665406",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40f8edf0",
+        "origin_iata": "PVG",
+        "registration": "B-7637",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "6:10 PM",
+        "scheduled_departure_epoch": "1785665406",
+        "status_display": "Landed 6:09 PM",
+        "status_epoch": "1785665350"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 82
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9290",
+      "raw": {
+        "actual_departure_display": "7:32 PM",
+        "actual_departure_epoch": "1785497551",
+        "aircraft_display": "B738 (B-6698)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785498746",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40f10a09",
+        "origin_iata": "PVG",
+        "registration": "B-6698",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "7:52 PM",
+        "scheduled_departure_epoch": "1785498746",
+        "status_display": "Landed 7:51 PM",
+        "status_epoch": "1785498711"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 85
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9290",
+      "raw": {
+        "actual_departure_display": "7:04 PM",
+        "actual_departure_epoch": "1784459070",
+        "aircraft_display": "B738 (B-5316)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784460411",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40be2e00",
+        "origin_iata": "NGB",
+        "registration": "B-5316",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "7:26 PM",
+        "scheduled_departure_epoch": "1784460411",
+        "status_display": "Landed 7:26 PM",
+        "status_epoch": "1784460396"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 98
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9303",
+      "raw": {
+        "actual_departure_display": "8:51 AM",
+        "actual_departure_epoch": "1791852695",
+        "aircraft_display": "B738 (B-1448)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791852695",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "CAN",
+        "flight_hex": "42188c8c",
+        "origin_iata": "SHA",
+        "registration": "B-1448",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 10:58 AM",
+        "status_epoch": "1791860330"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 39
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9312",
+      "raw": {
+        "actual_departure_display": "4:00 AM",
+        "actual_departure_epoch": "1785643220",
+        "aircraft_display": "B738 (B-5610)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785652512",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "CAN",
+        "flight_hex": "40f83762",
+        "origin_iata": "",
+        "registration": "B-5610",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "6:35 AM",
+        "scheduled_departure_epoch": "1785652512",
+        "status_display": "Landed 2:34 PM",
+        "status_epoch": "1785652451"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 81
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9329",
+      "raw": {
+        "actual_departure_display": "4:11 AM",
+        "actual_departure_epoch": "1785643902",
+        "aircraft_display": "B737 (B-5260)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785667008",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "CGO",
+        "flight_hex": "40f82ad3",
+        "origin_iata": "",
+        "registration": "B-5260",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "10:36 AM",
+        "scheduled_departure_epoch": "1785667008",
+        "status_display": "Landed 6:26 PM",
+        "status_epoch": "1785666405"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 60
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9330",
+      "raw": {
+        "actual_departure_display": "11:25 PM",
+        "actual_departure_epoch": "1788103529",
+        "aircraft_display": "B737 (B-5269)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1788106561",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "416d58ef",
+        "origin_iata": "HIA",
+        "registration": "B-5269",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "12:16 AM",
+        "scheduled_departure_epoch": "1788106561",
+        "status_display": "Landed 12:15 AM",
+        "status_epoch": "1788106543"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 38
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch10.json",
+      "flight_number": "FM9331",
+      "raw": {
+        "actual_departure_display": "8:32 AM",
+        "actual_departure_epoch": "1791851525",
+        "aircraft_display": "A333 (B-6085)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791851525",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SZX",
+        "flight_hex": "4218818f",
+        "origin_iata": "SHA",
+        "registration": "B-6085",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 10:27 AM",
+        "status_epoch": "1791858433"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 37
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch11.json",
+      "flight_number": "FM9340",
+      "raw": {
+        "actual_departure_display": "11:12 AM",
+        "actual_departure_epoch": "1791861154",
+        "aircraft_display": "B738 (B-5832)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791861154",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "4218df46",
+        "origin_iata": "NNG",
+        "registration": "B-5832",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 1:26 PM",
+        "status_epoch": "1791869209"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 14
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch11.json",
+      "flight_number": "FM9363",
+      "raw": {
+        "actual_departure_display": "9:33 AM",
+        "actual_departure_epoch": "1779874386",
+        "aircraft_display": "B738 (B-5610)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1779886511",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "WUH",
+        "flight_hex": "3fe43535",
+        "origin_iata": "",
+        "registration": "B-5610",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "12:55 PM",
+        "scheduled_departure_epoch": "1779886511",
+        "status_display": "Landed 8:55 PM",
+        "status_epoch": "1779886501"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 93
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch11.json",
+      "flight_number": "FM9378",
+      "raw": {
+        "actual_departure_display": "7:08 AM",
+        "actual_departure_epoch": "1779260899",
+        "aircraft_display": "B738 (B-5833)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1779281491",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "",
+        "flight_hex": "3fc76f56",
+        "origin_iata": "",
+        "registration": "B-5833",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "12:51 PM",
+        "scheduled_departure_epoch": "1779281491",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 54
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch11.json",
+      "flight_number": "FM9397",
+      "raw": {
+        "actual_departure_display": "5:09 AM",
+        "actual_departure_epoch": "1790312996",
+        "aircraft_display": "B738 (B-1721)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1790313061",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "",
+        "flight_hex": "41d302a3",
+        "origin_iata": "",
+        "registration": "B-1721",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "5:11 AM",
+        "scheduled_departure_epoch": "1790313061",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 57
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch11.json",
+      "flight_number": "FM9420",
+      "raw": {
+        "actual_departure_display": "1:36 AM",
+        "actual_departure_epoch": "1784396203",
+        "aircraft_display": "B738 (B-5610)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784399191",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40bb3b88",
+        "origin_iata": "HFE",
+        "registration": "B-5610",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "2:26 AM",
+        "scheduled_departure_epoch": "1784399191",
+        "status_display": "Landed 2:26 AM",
+        "status_epoch": "1784399182"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 51
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch11.json",
+      "flight_number": "FM9452",
+      "raw": {
+        "actual_departure_display": "2:08 PM",
+        "actual_departure_epoch": "1791180505",
+        "aircraft_display": "B738 (B-205Y)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791189686",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "41fa18ee",
+        "origin_iata": "KMG",
+        "registration": "B-205Y",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "4:41 PM",
+        "scheduled_departure_epoch": "1791189686",
+        "status_display": "Landed 4:41 PM",
+        "status_epoch": "1791189668"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 47
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch12.json",
+      "flight_number": "HO1128",
+      "raw": {
+        "actual_departure_display": "1:30 AM",
+        "actual_departure_epoch": "1784655010",
+        "aircraft_display": "A321 (B-8540)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1784660712",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "",
+        "flight_hex": "40c7e71a",
+        "origin_iata": "SHA",
+        "registration": "B-8540",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "3:05 AM",
+        "scheduled_departure_epoch": "1784660712",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 92
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch12.json",
+      "flight_number": "HO1130",
+      "raw": {
+        "actual_departure_display": "1:04 AM",
+        "actual_departure_epoch": "1790730253",
+        "aircraft_display": "S92 (B-7353)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1790733144",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "",
+        "flight_hex": "41e6278e",
+        "origin_iata": "",
+        "registration": "B-7353",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "1:52 AM",
+        "scheduled_departure_epoch": "1790733144",
+        "status_display": "Landed 1:52 AM",
+        "status_epoch": "1790733144"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 48
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch12.json",
+      "flight_number": "HO1216",
+      "raw": {
+        "actual_departure_display": "11:13 PM",
+        "actual_departure_epoch": "1786461239",
+        "aircraft_display": "A20N (B-321A)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1786463668",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "",
+        "flight_hex": "411f194d",
+        "origin_iata": "PVG",
+        "registration": "B-321A",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "11:54 PM",
+        "scheduled_departure_epoch": "1786463668",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 67
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch12.json",
+      "flight_number": "HO1216",
+      "raw": {
+        "actual_departure_display": "1:05 AM",
+        "actual_departure_epoch": "1783875924",
+        "aircraft_display": "A320 (B-6948)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1783884276",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "",
+        "flight_hex": "40a20edf",
+        "origin_iata": "PVG",
+        "registration": "B-6948",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "3:24 AM",
+        "scheduled_departure_epoch": "1783884276",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 83
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch14.json",
+      "flight_number": "HO1888",
+      "raw": {
+        "actual_departure_display": "1:52 AM",
+        "actual_departure_epoch": "1785865956",
+        "aircraft_display": "A321 (B-8956)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785868321",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "4102901e",
+        "origin_iata": "WNZ",
+        "registration": "B-8956",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "2:32 AM",
+        "scheduled_departure_epoch": "1785868321",
+        "status_display": "Landed 2:31 AM",
+        "status_epoch": "1785868302"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 73
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch14.json",
+      "flight_number": "HU7602",
+      "raw": {
+        "actual_departure_display": "10:21 AM",
+        "actual_departure_epoch": "1779762081",
+        "aircraft_display": "A333 (B-6527)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1779762121",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "",
+        "flight_hex": "3fdf188a",
+        "origin_iata": "PEK",
+        "registration": "B-6527",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "10:22 AM",
+        "scheduled_departure_epoch": "1779762121",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 55
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch15.json",
+      "flight_number": "KE2058",
+      "raw": {
+        "actual_departure_display": "9:30 PM",
+        "actual_departure_epoch": "1787315433",
+        "aircraft_display": "A333 (HL7720)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1787315436",
+        "departure_utc_offset_seconds": "32400",
+        "destination_iata": "",
+        "flight_hex": "41483d9b",
+        "origin_iata": "GMP",
+        "registration": "HL7720",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "9:30 PM",
+        "scheduled_departure_epoch": "1787315436",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 92
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch15.json",
+      "flight_number": "MF8378",
+      "raw": {
+        "actual_departure_display": "11:04 AM",
+        "actual_departure_epoch": "1791774257",
+        "aircraft_display": "B738 (B-5707)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791774257",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "4215242c",
+        "origin_iata": "SZX",
+        "registration": "B-5707",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 12:48 PM",
+        "status_epoch": "1791780515"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 35
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch15.json",
+      "flight_number": "MF8542",
+      "raw": {
+        "actual_departure_display": "11:54 AM",
+        "actual_departure_epoch": "1791863690",
+        "aircraft_display": "B738 (B-5708)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791863690",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "FOC",
+        "flight_hex": "4218ec18",
+        "origin_iata": "SHA",
+        "registration": "B-5708",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 1:04 PM",
+        "status_epoch": "1791867852"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 39
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch17.json",
+      "flight_number": "MU2506",
+      "raw": {
+        "actual_departure_display": "11:31 AM",
+        "actual_departure_epoch": "1791862319",
+        "aircraft_display": "B738 (B-5647)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791862319",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "WUH",
+        "flight_hex": "4218e08f",
+        "origin_iata": "SHA",
+        "registration": "B-5647",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 12:56 PM",
+        "status_epoch": "1791867363"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 39
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch18.json",
+      "flight_number": "MU5183",
+      "raw": {
+        "actual_departure_display": "9:23 AM",
+        "actual_departure_epoch": "1779873784",
+        "aircraft_display": "A20N (B-308A)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1779887076",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "PKX",
+        "flight_hex": "3fe424d7",
+        "origin_iata": "",
+        "registration": "B-308A",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "1:04 PM",
+        "scheduled_departure_epoch": "1779887076",
+        "status_display": "Landed 9:04 PM",
+        "status_epoch": "1779887062"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 84
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch19.json",
+      "flight_number": "MU5324",
+      "raw": {
+        "actual_departure_display": "7:45 PM",
+        "actual_departure_epoch": "1786448741",
+        "aircraft_display": "A321 (B-6592)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1786455061",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "411e3c2d",
+        "origin_iata": "CSX",
+        "registration": "B-6592",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "null",
+        "scheduled_departure_display": "9:31 PM",
+        "scheduled_departure_epoch": "1786455061",
+        "status_display": "Landed 9:30 PM",
+        "status_epoch": "1786455030"
+      },
+      "reason": "Invalid source Unix timestamp: 'null'",
+      "row_index": 177
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch19.json",
+      "flight_number": "MU5333",
+      "raw": {
+        "actual_departure_display": "9:29 AM",
+        "actual_departure_epoch": "1791854952",
+        "aircraft_display": "A333 (B-8863)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791854952",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SZX",
+        "flight_hex": "4218a5f9",
+        "origin_iata": "SHA",
+        "registration": "B-8863",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 11:25 AM",
+        "status_epoch": "1791861906"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 35
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch19.json",
+      "flight_number": "MU5334",
+      "raw": {
+        "actual_departure_display": "9:46 AM",
+        "actual_departure_epoch": "1791855985",
+        "aircraft_display": "A333 (B-6506)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791855985",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "4218ad95",
+        "origin_iata": "SZX",
+        "registration": "B-6506",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 11:39 AM",
+        "status_epoch": "1791862749"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 39
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch20.json",
+      "flight_number": "MU5401",
+      "raw": {
+        "actual_departure_display": "8:30 AM",
+        "actual_departure_epoch": "1791851433",
+        "aircraft_display": "A321 (B-8396)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1791851433",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "CTU",
+        "flight_hex": "421884ac",
+        "origin_iata": "SHA",
+        "registration": "B-8396",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 11:22 AM",
+        "status_epoch": "1791861774"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 39
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch20.json",
+      "flight_number": "MU5410",
+      "raw": {
+        "actual_departure_display": "5:53 PM",
+        "actual_departure_epoch": "1788256427",
+        "aircraft_display": "A321 (B-8569)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1788258318",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "41740503",
+        "origin_iata": "NKG",
+        "registration": "B-8569",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "6:25 PM",
+        "scheduled_departure_epoch": "1788258318",
+        "status_display": "Landed 6:25 PM",
+        "status_epoch": "1788258305"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 81
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch21.json",
+      "flight_number": "MU5468",
+      "raw": {
+        "actual_departure_display": "8:41 AM",
+        "actual_departure_epoch": "1788856897",
+        "aircraft_display": "A321 (B-8165)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1788856961",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "",
+        "flight_hex": "418f6ef7",
+        "origin_iata": "",
+        "registration": "B-8165",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "8:42 AM",
+        "scheduled_departure_epoch": "1788856961",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 46
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch21.json",
+      "flight_number": "MU5566",
+      "raw": {
+        "actual_departure_display": "5:43 AM",
+        "actual_departure_epoch": "1785649395",
+        "aircraft_display": "A321 (B-6642)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785658621",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "SHA",
+        "flight_hex": "40f82ad8",
+        "origin_iata": "",
+        "registration": "B-6642",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "8:17 AM",
+        "scheduled_departure_epoch": "1785658621",
+        "status_display": "Landed 4:16 PM",
+        "status_epoch": "1785658618"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 82
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch21.json",
+      "flight_number": "MU5566",
+      "raw": {
+        "actual_departure_display": "8:38 PM",
+        "actual_departure_epoch": "1785501506",
+        "aircraft_display": "A321 (B-9907)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785502752",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40f13a87",
+        "origin_iata": "PVG",
+        "registration": "B-9907",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "8:59 PM",
+        "scheduled_departure_epoch": "1785502752",
+        "status_display": "Landed 8:58 PM",
+        "status_epoch": "1785502732"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 84
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch22.json",
+      "flight_number": "MU5631",
+      "raw": {
+        "actual_departure_display": "12:29 PM",
+        "actual_departure_epoch": "1794371378",
+        "aircraft_display": "B77W (B-2043)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1794371378",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "PEK",
+        "flight_hex": "42861147",
+        "origin_iata": "SHA",
+        "registration": "B-2043",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 2:23 PM",
+        "status_epoch": "1794378216"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 10
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch22.json",
+      "flight_number": "MU5805",
+      "raw": {
+        "actual_departure_display": "6:20 PM",
+        "actual_departure_epoch": "1786357221",
+        "aircraft_display": "B738 (B-1255)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1786359162",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "4119d36a",
+        "origin_iata": "HGH",
+        "registration": "B-1255",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "6:52 PM",
+        "scheduled_departure_epoch": "1786359162",
+        "status_display": "Landed 6:52 PM",
+        "status_epoch": "1786359158"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 88
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch22.json",
+      "flight_number": "MU5807",
+      "raw": {
+        "actual_departure_display": "7:19 PM",
+        "actual_departure_epoch": "1785496763",
+        "aircraft_display": "B738 (B-1789)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1785497866",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40f0fbc9",
+        "origin_iata": "PVG",
+        "registration": "B-1789",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "null",
+        "scheduled_departure_display": "7:37 PM",
+        "scheduled_departure_epoch": "1785497866",
+        "status_display": "Landed 7:37 PM",
+        "status_epoch": "1785497839"
+      },
+      "reason": "Invalid source Unix timestamp: 'null'",
+      "row_index": 179
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch22.json",
+      "flight_number": "MU5807",
+      "raw": {
+        "actual_departure_display": "7:52 PM",
+        "actual_departure_epoch": "1784461920",
+        "aircraft_display": "B738 (B-7589)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784463142",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40be37de",
+        "origin_iata": "PVG",
+        "registration": "B-7589",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "null",
+        "scheduled_departure_display": "8:12 PM",
+        "scheduled_departure_epoch": "1784463142",
+        "status_display": "Landed 8:12 PM",
+        "status_epoch": "1784463122"
+      },
+      "reason": "Invalid source Unix timestamp: 'null'",
+      "row_index": 198
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch22.json",
+      "flight_number": "MU5811",
+      "raw": {
+        "actual_departure_display": "6:57 PM",
+        "actual_departure_epoch": "1790765851",
+        "aircraft_display": "B789 (B-208P)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1790775012",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "41e76c99",
+        "origin_iata": "KMG",
+        "registration": "B-208P",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "null",
+        "scheduled_departure_display": "9:30 PM",
+        "scheduled_departure_epoch": "1790775012",
+        "status_display": "Landed 9:30 PM",
+        "status_epoch": "1790775000"
+      },
+      "reason": "Invalid source Unix timestamp: 'null'",
+      "row_index": 101
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch22.json",
+      "flight_number": "MU6218",
+      "raw": {
+        "actual_departure_display": "10:40 PM",
+        "actual_departure_epoch": "1784385637",
+        "aircraft_display": "A20N (B-307J)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784389116",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40bb249e",
+        "origin_iata": "HFE",
+        "registration": "B-307J",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "11:38 PM",
+        "scheduled_departure_epoch": "1784389116",
+        "status_display": "Landed 11:37 PM",
+        "status_epoch": "1784389070"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 96
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch23.json",
+      "flight_number": "MU6593",
+      "raw": {
+        "actual_departure_display": "10:49 AM",
+        "actual_departure_epoch": "1790938154",
+        "aircraft_display": "B738 (B-1321)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1790938997",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "SQJ",
+        "flight_hex": "41ef917c",
+        "origin_iata": "",
+        "registration": "B-1321",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "11:03 AM",
+        "scheduled_departure_epoch": "1790938997",
+        "status_display": "Landed 7:03 PM",
+        "status_epoch": "1790938997"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 23
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch23.json",
+      "flight_number": "MU6594",
+      "raw": {
+        "actual_departure_display": "8:20 PM",
+        "actual_departure_epoch": "1784377200",
+        "aircraft_display": "B738 (B-1320)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784387607",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40ba91a3",
+        "origin_iata": "SQJ",
+        "registration": "B-1320",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "11:13 PM",
+        "scheduled_departure_epoch": "1784387607",
+        "status_display": "Landed 9:29 PM",
+        "status_epoch": "1784381340"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 96
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch25.json",
+      "flight_number": "SC2297",
+      "raw": {
+        "actual_departure_display": "1:19 AM",
+        "actual_departure_epoch": "1784395180",
+        "aircraft_display": "B738 (B-1441)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1784398146",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40bbac2e",
+        "origin_iata": "HGH",
+        "registration": "B-1441",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "2:09 AM",
+        "scheduled_departure_epoch": "1784398146",
+        "status_display": "Landed 2:09 AM",
+        "status_epoch": "1784398146"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 86
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch25.json",
+      "flight_number": "SC4668",
+      "raw": {
+        "actual_departure_display": "8:40 PM",
+        "actual_departure_epoch": "1784119221",
+        "aircraft_display": "B738 (B-1441)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1784119397",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "",
+        "flight_hex": "40adbb0c",
+        "origin_iata": "TAO",
+        "registration": "B-1441",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "8:43 PM",
+        "scheduled_departure_epoch": "1784119397",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 98
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch25.json",
+      "flight_number": "TV9866",
+      "raw": {
+        "actual_departure_display": "11:23 AM",
+        "actual_departure_epoch": "1789039436",
+        "aircraft_display": "A332 (B-8420)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1789039468",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "",
+        "flight_hex": "41980a34",
+        "origin_iata": "",
+        "registration": "B-8420",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "11:24 AM",
+        "scheduled_departure_epoch": "1789039468",
+        "status_display": "Unknown",
+        "status_epoch": ""
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 69
+    },
+    {
+      "batch": ".flight-collection\\shared-exports\\two-second-20261113-batch25.json",
+      "flight_number": "ZH9501",
+      "raw": {
+        "actual_departure_display": "1:20 AM",
+        "actual_departure_epoch": "1787448050",
+        "aircraft_display": "A189 (B-72DU)",
+        "arrival_utc_offset_seconds": "",
+        "date_epoch": "1787459381",
+        "departure_utc_offset_seconds": "",
+        "destination_iata": "",
+        "flight_hex": "414e98f6",
+        "origin_iata": "",
+        "registration": "B-72DU",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "4:29 AM",
+        "scheduled_departure_epoch": "1787459381",
+        "status_display": "Landed 4:18 AM",
+        "status_epoch": "1787458691"
+      },
+      "reason": "History row has missing or unrecognized airports",
+      "row_index": 59
+    },
+    {
+      "batch": ".flight-collection\\shared-review\\five-second-20261113-raw.json",
+      "flight_number": "8L9887",
+      "raw": {
+        "actual_departure_display": "11:42 AM",
+        "actual_departure_epoch": "1794368578",
+        "aircraft_display": "A21N (B-32M0)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1794368578",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "428603ff",
+        "origin_iata": "WUH",
+        "registration": "B-32M0",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "\u2014",
+        "scheduled_departure_epoch": "",
+        "status_display": "Landed 12:47 PM",
+        "status_epoch": "1794372479"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 6
+    },
+    {
+      "batch": ".flight-collection\\shared-review\\five-second-20261113-raw.json",
+      "flight_number": "8L9887",
+      "raw": {
+        "actual_departure_display": "9:16 PM",
+        "actual_departure_epoch": "1783862204",
+        "aircraft_display": "A333 (B-1059)",
+        "arrival_utc_offset_seconds": "28800",
+        "date_epoch": "1783867671",
+        "departure_utc_offset_seconds": "28800",
+        "destination_iata": "SHA",
+        "flight_hex": "40a101c8",
+        "origin_iata": "CGO",
+        "registration": "B-1059",
+        "schedule_id": "",
+        "scheduled_arrival_display": "\u2014",
+        "scheduled_arrival_epoch": "",
+        "scheduled_departure_display": "10:47 PM",
+        "scheduled_departure_epoch": "1783867671",
+        "status_display": "Landed 10:47 PM",
+        "status_epoch": "1783867657"
+      },
+      "reason": "Cannot date an SHA event without its scheduled timestamp",
+      "row_index": 99
+    }
+  ]
+}

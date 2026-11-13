@@ -205,6 +205,10 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local collector checkpoints; authenticated browser profiles belong outside the repo.
+.flight-collection/
+fr24-cookies.txt
+
 # Ruff stuff:
 .ruff_cache/
 

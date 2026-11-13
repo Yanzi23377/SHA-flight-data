@@ -8,12 +8,13 @@ import math
 import re
 import sys
 from datetime import datetime, timezone
+from http.cookiejar import Cookie, MozillaCookieJar
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Iterable
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
-from urllib.request import Request, urlopen
+from urllib.request import HTTPCookieProcessor, Request, build_opener, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -165,17 +166,71 @@ def flight_number_from_url(url: str) -> str:
     return match.group(1).upper()
 
 
-def fetch_page(url: str, timeout: float) -> tuple[str, str]:
-    """Perform one ordinary GET; do not retry or bypass access restrictions."""
+def load_cookie_jar(path: Path | None) -> MozillaCookieJar | None:
+    if path is None:
+        return None
+    if not path.exists():
+        raise ValueError(f"Cookie file does not exist: {path}")
+    jar = MozillaCookieJar(str(path))
+    lines = path.read_text(encoding="utf-8-sig").splitlines()
+    if not lines or not re.fullmatch(r"#(?: Netscape)? HTTP Cookie File.*", lines[0]):
+        raise ValueError("Expected a Netscape-format cookie export, not a browser database or JSON file.")
+    now = datetime.now(timezone.utc).timestamp()
+    for line in lines[1:]:
+        # Python 3.9's MozillaCookieJar silently skips HttpOnly export lines.
+        http_only = line.startswith("#HttpOnly_")
+        if http_only:
+            line = line[len("#HttpOnly_"):]
+        elif not line.strip() or line.startswith(("#", "$")):
+            continue
+        fields = line.split("\t")
+        if len(fields) != 7:
+            raise ValueError("Invalid Netscape cookie export: expected seven tab-separated fields.")
+        domain, subdomains, cookie_path, secure, expires_text, name, value = fields
+        if (
+            subdomains not in {"TRUE", "FALSE"} or secure not in {"TRUE", "FALSE"}
+            or not re.fullmatch(r"\.?[a-zA-Z0-9.-]+", domain)
+            or not cookie_path.startswith("/") or not name
+            or (expires_text and not re.fullmatch(r"[0-9]+", expires_text))
+        ):
+            raise ValueError("Invalid Netscape cookie export fields; cookie contents withheld.")
+        if domain.startswith(".") and subdomains != "TRUE":
+            raise ValueError("Inconsistent domain scope in Netscape cookie export.")
+        if subdomains == "TRUE" and not domain.startswith("."):
+            domain = "." + domain
+        # Browser exports commonly represent session expiry as blank or zero.
+        expires = int(expires_text) if expires_text and expires_text != "0" else None
+        if expires is not None and expires <= now:
+            continue
+        jar.set_cookie(Cookie(
+            version=0, name=name, value=value,
+            port=None, port_specified=False,
+            domain=domain, domain_specified=subdomains == "TRUE",
+            domain_initial_dot=domain.startswith("."),
+            path=cookie_path, path_specified=True,
+            secure=secure == "TRUE", expires=expires, discard=expires is None,
+            comment=None, comment_url=None,
+            rest={"HTTPOnly": ""} if http_only else {},
+            rfc2109=False,
+        ))
+    return jar
+
+
+def fetch_page(url: str, timeout: float, cookie_jar: MozillaCookieJar | None = None) -> tuple[str, str]:
+    """Perform one ordinary GET; optionally include browser cookies for an authenticated session."""
     flight_number_from_url(url)
     request = Request(url, headers={
         "User-Agent": USER_AGENT,
         "Accept": "text/html,application/xhtml+xml;q=0.9",
         "Accept-Language": "en-US,en;q=0.9",
+        "Upgrade-Insecure-Requests": "1",
     })
+    opener = build_opener(HTTPCookieProcessor(cookie_jar)) if cookie_jar is not None else None
     try:
-        with urlopen(request, timeout=timeout) as response:
-            if response.headers.get_content_type() not in {"text/html", "application/xhtml+xml"}:
+        open_request = opener.open if opener is not None else urlopen
+        with open_request(request, timeout=timeout) as response:
+            content_type = response.headers.get_content_type()
+            if content_type not in {"text/html", "application/xhtml+xml"}:
                 raise ValueError(f"Expected an HTML response from {url}")
             html = response.read().decode(
                 response.headers.get_content_charset() or "utf-8", errors="replace"
@@ -240,8 +295,10 @@ def main() -> int:
     mode.add_argument("--url", action="append", help="Flight-history URL to fetch; repeat for multiple flights")
     parser.add_argument("--manifest", type=Path, help="CSV containing file,source_url columns (saved-page mode)")
     parser.add_argument("--timeout", type=float, default=30, help="HTTP timeout in seconds (default: 30)")
+    parser.add_argument("--cookies", type=Path, help="Netscape-style cookie file for a logged-in Flightradar24 Gold session")
     parser.add_argument("--output", type=Path, default=Path("sha_imported.csv"))
     parser.add_argument("--template", type=Path, default=DEFAULT_TEMPLATE, help="CSV used for output column order")
+    parser.add_argument("--merge", action="store_true", help="Append rows to an existing output CSV instead of replacing it")
     args = parser.parse_args()
 
     if not math.isfinite(args.timeout) or args.timeout <= 0:
@@ -259,12 +316,17 @@ def main() -> int:
         fieldnames = next(csv.reader(template), None)
     if not fieldnames:
         parser.error(f"CSV template has no header row: {args.template}")
+
+    cookie_jar = load_cookie_jar(args.cookies)
     inputs: list[tuple[dict[str, str], str, str, str]] = []
     if args.url:
         for url in args.url:
             flight_number_from_url(url)
         for url in args.url:
-            html, retrieved_at = fetch_page(url, args.timeout)
+            html, retrieved_at = (
+                fetch_page(url, args.timeout, cookie_jar) if cookie_jar is not None
+                else fetch_page(url, args.timeout)
+            )
             for index, values in enumerate(parse_flight_history(html, url), start=1):
                 inputs.append((values, url, f"remote:{values['flight_number']}:{index}", retrieved_at))
     else:
@@ -318,13 +380,23 @@ def main() -> int:
         records.append(record)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    with args.output.open("w", newline="", encoding="utf-8") as destination:
+    append_existing = args.merge and args.output.exists()
+    if append_existing:
+        with args.output.open(newline="", encoding="utf-8-sig") as existing:
+            reader = csv.DictReader(existing)
+            if reader.fieldnames != fieldnames:
+                raise ValueError("Existing output header does not match the CSV template.")
+
+    with args.output.open("a" if append_existing else "w", newline="", encoding="utf-8") as destination:
         writer = csv.DictWriter(destination, fieldnames=fieldnames, extrasaction="ignore")
-        writer.writeheader()
+        if not append_existing:
+            writer.writeheader()
         writer.writerows(records)
 
     print(f"Wrote {len(records)} parsed record(s) to {args.output}")
     print("Unrecognized or absent fields remain blank; timing semantics are unverified.")
+    if args.cookies:
+        print(f"Authenticated request cookies loaded from {args.cookies}")
     if not args.url:
         print("No network requests were made. retrieved_at_utc is left blank for local files.")
     return 0

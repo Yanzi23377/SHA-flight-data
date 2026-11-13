@@ -132,6 +132,23 @@ class ImportFlightPagesTests(unittest.TestCase):
                     importer.main()
             self.assertEqual(output.read_text(encoding="utf-8"), "existing output")
 
+    @patch.object(importer, "fetch_page", return_value=(HISTORY, "2026-10-26T10:00:00+00:00"))
+    def test_merge_creates_header_once_and_rejects_mismatched_schema(self, fetch_page):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "out.csv"
+            arguments = ["importer", "--url", URL, "--output", str(output), "--merge"]
+            for _ in range(2):
+                with patch("sys.argv", arguments), redirect_stdout(io.StringIO()):
+                    self.assertEqual(importer.main(), 0)
+            with output.open(newline="", encoding="utf-8") as source:
+                rows = list(csv.DictReader(source))
+            self.assertEqual(len(rows), 4)
+            self.assertTrue(all(row["flight_number"] == "MU5101" for row in rows))
+            output.write_text("wrong,header\nexisting,data\n", encoding="utf-8")
+            with patch("sys.argv", arguments), self.assertRaisesRegex(ValueError, "header"):
+                importer.main()
+            self.assertEqual(output.read_text(encoding="utf-8"), "wrong,header\nexisting,data\n")
+
 
 if __name__ == "__main__":
     unittest.main()
