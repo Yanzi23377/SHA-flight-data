@@ -1,38 +1,36 @@
-# SHA flight data
+# SHA National Day flight project
 
-Create research-oriented plots from `sha_master.csv` with Python:
+This repository contains the original flight-event data and the final Word
+report package in [`final_project_word`](./final_project_word).
 
-```bash
-uv sync
-uv run python -m sha_flight_data.plots
-```
+## Final report package
 
-The four 300-DPI PNG files are written to `plots/`:
+- [`sha_national_day_final_report.docx`](./final_project_word/sha_national_day_final_report.docx)
+  is the academic report.
+- [`sha_national_day_final_executed.ipynb`](./final_project_word/sha_national_day_final_executed.ipynb)
+  is the executed analysis notebook.
+- [`sha_national_day_final.ipynb`](./final_project_word/sha_national_day_final.ipynb)
+  is the notebook source.
+- [`sha_national_day_final_results.json`](./final_project_word/sha_national_day_final_results.json)
+  contains machine-readable summary results.
+- [`figures`](./final_project_word/figures) contains the figures used by the
+  report and notebook.
 
-- `sha_daily_flight_volume.png` — daily scheduled arrivals and departures.
-- `sha_hourly_schedule.png` — schedule volume by local hour at SHA.
-- `sha_top_routes.png` — the 15 most frequent directional routes.
-- `sha_cancellation_rates.png` — cancellations by calendar day type, using
-  records with a known status as the denominator.
+The proposal, presentation, and adjusted-workday analysis plan in the same
+folder are supplementary materials.
 
-To use a different CSV or output directory:
+## Original data and reproduction
 
-```bash
-uv run python -m sha_flight_data.plots --input path/to/flights.csv --output-dir path/to/plots
-```
-
-For the research project, see the [documented Jupyter notebook](./sha_flight_plots.ipynb), editable [report source](./research_report.md), and [PDF report](./research_report.pdf), which includes three analysis figures. The report uses a proposed revised scope that omits carrier comparisons because the supplied operating-carrier values are blank and unverified; obtain instructor approval before submission.
-
-```bash
-uv run jupyter lab sha_flight_plots.ipynb
-```
-
-The report has 3,000-6,000 main-text words (excluding title page and references).
-To rebuild it, install the report dependency group and run:
+[`sha_master.csv`](./sha_master.csv) is the supplied source dataset. The report
+and notebook can be regenerated from the repository root with:
 
 ```bash
 uv sync --group report
-uv run --group report python scripts/generate_report.py
+uv run --group report python scripts/build_word_final_project.py
+uv run --group report jupyter nbconvert --execute --to notebook \
+  final_project_word/sha_national_day_final.ipynb \
+  --output sha_national_day_final_executed.ipynb \
+  --output-dir final_project_word
 ```
 
 The dataset's `timing_semantics_verified` values are all false. The notebook and
